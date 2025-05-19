@@ -14,7 +14,7 @@ The model is developed using Python and related dependencies. To run the model, 
 ### Instructions of running RolA 
 
 
-## 4. Online Anomly Detection From Single Parameter Sensor Data Stream
+## 4. Online Anomly Detection From Multi Parameter Sensor Data Stream
 
 
 
@@ -22,6 +22,13 @@ The model is developed using Python and related dependencies. To run the model, 
 
 
 # License and Disclaimers
+
+The Colab notebooks and the associated code are licensed under MIT 4.0. You may obtain a copy of the License at: [MIT](https://opensource.org/license/mit)
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
 
 # Citations
 

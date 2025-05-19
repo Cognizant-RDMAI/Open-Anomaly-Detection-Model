@@ -8,7 +8,7 @@ The model is developed using Python and related dependencies. To run the model, 
 
 
 ### RoLA
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/goo.png?raw=true)
 
 
 

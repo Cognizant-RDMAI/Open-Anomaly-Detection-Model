@@ -19,7 +19,7 @@ A range of selected parameters were chosen taking into account values of interes
 
 
 ## 4. Online Anomly Detection From Multi Parameter Sensor Data Stream
-
+IQR model
 
 
 

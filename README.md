@@ -9,7 +9,7 @@ Real-Time Anomalies Detection and Classification
 
 Multiparameter Water Quality Anomaly Detection 
 
-**This project visualizes and detects anomalies in real-time sensor data for multiple water quality parameters, such as: **
+**This project visualizes and detects anomalies in real-time sensor data for multiple water quality parameters, such as:**
 
 Dissolved Oxygen (DO) 
 
@@ -24,7 +24,7 @@ Electrical Conductivity (EC)
 Anomalies are detected using the IQR (Interquartile Range) method and visualized in a dynamic Matplotlib animation. 
 
 
-**Summary of data exploration:   **
+**Summary of data exploration:**
 
  
 
@@ -35,11 +35,6 @@ A range of selected parameters were chosen taking into account values of interes
 Data was collected over a period from September 15, 2014, to December 15, 2016. Each variable has a total of 37,255 readings. These readings provide a detailed temporal record of water quality conditions.  
 
 The sensors captured both chemical and physical indicators to help assess environmental health. Data consistency across all locations allows for comparative analysis. 
-
-
-
-
-
 
 
 

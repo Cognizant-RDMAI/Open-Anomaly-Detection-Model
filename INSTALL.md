@@ -1,5 +1,5 @@
 Installation Guide
-This guide walks you through setting up the **BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection** project in your local or cloud environment.
+This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
  
 > **Note:** This repository is shared for transparency and reproducibility.  
 > Code contributions are not accepted at this time.

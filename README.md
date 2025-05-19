@@ -26,7 +26,7 @@ A range of selected parameters were chosen taking into account values of interes
 
 
 ## 3. Online Anomly Detection From Single Parameter Sensor Data Stream
-![alt text](goo.jpg)
+![alt text](https://raw.githubusercontent.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/main/goo.jpg)
 [![IMAGE ALT TEXT HERE](goo.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 <img width="511" alt="image" src="https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/blob/main/goo.jpg" />
 

@@ -2,7 +2,7 @@
 
 
 # ===============================
-# This code reads water quality sensor data (e.g., DO, pH, turbidity) from CSV files and visualizes it in real time using Matplotlib. It calculates anomalies using the IQR method and highlights them on the plot as red points. The animate() function updates the plot frame by frame to simulate live data streaming. The background color changes dynamically based on turbidity values. Finally, the animation is saved as an MP4 video using FFmpeg.
+#  It calculates anomalies using the IQR method and highlights them on the plot as red points in ral-time. The animate() function updates the plot frame by frame to simulate live data streaming. The background color changes dynamically based on turbidity values. Finally, the animation is saved as an MP4 video using FFmpeg.
 # ===============================
 
 
@@ -12,10 +12,13 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # ===============================
-# Load data from online APIs or CSVs (paths hidden). We use CSV here for demo purpose.
+# Load data from online APIs or CSVs (paths hidden).
 # ===============================
-# Read time index from a representative CSV (assumes same for all)
-data_index = pd.read_csv('.../DO.csv')  # Hidden path
+# Read time index from a API
+url = "enter your url"
+data = pd.read_csv(url)
+
+data_index = pd.read_csv('.../index.csv')  # Hidden path
 
 # Load measurement data from multiple CSV files (paths hidden)
 data_DO = pd.read_csv('.../DO.csv')

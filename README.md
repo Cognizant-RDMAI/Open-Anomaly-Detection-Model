@@ -15,15 +15,13 @@ A range of selected parameters were chosen taking into account values of interes
 ## 4. Directory Structure
     OpenSlurryTanksDetectionModel/
     ├── README.md                 # Project overview and usage instructions
-    ├── detection.ipynb           # Inference and post-processing workflow
-    ├── slurry_tank_model.ipynb   # Model training, augmentation, and evaluation
+    ├── Multiparameter.py         # Model for multi parameter
+    ├── SingleParameter.py        # Model for sinle parameter
     ├── MODEL_CARD.md             # Model details
     ├── INSTALL.md                # Step-by-step installation instructions
     ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)
     ├── CHANGELOG.md              # List of changes and improvements made to the project
     ├── requirements.txt          #python libraries required 
-    ├── runs/
-    │   └── model_weight/         # Trained YOLOv8 model weights (e.g., best.pt)
     └── LICENSE                   # Licensing information and usage rights
 
 

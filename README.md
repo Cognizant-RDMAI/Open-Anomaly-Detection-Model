@@ -21,7 +21,6 @@ Anomalies are detected using the IQR (Interquartile Range) method and visualized
 
 main_plot.py: Main Python script for real-time visualization and anomaly detection. 
 
-*.csv: Sensor data files for different parameters (e.g., DO, pH, turbidity). 
 
 anomaly_logged_data_*.csv: Auto-generated log files of detected anomalies during visualization. 
 

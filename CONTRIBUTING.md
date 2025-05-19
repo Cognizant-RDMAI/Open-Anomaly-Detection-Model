@@ -1,6 +1,6 @@
-Contributing to BBXX-YY
+Contributing to BB3AB
 
-Thank you for considering contributing to BBXX-YY! We welcome comments and suggestions and appreciate your interest in improving the project.
+Thank you for considering contributing to BB3AB! We welcome comments and suggestions and appreciate your interest in improving the project.
 
 How to Contribute
 

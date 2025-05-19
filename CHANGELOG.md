@@ -8,7 +8,7 @@
  
 ## [May 2025]
  
-- Initial release of BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection
+- Initial release of OpenRealTimeClassificationModel
 
 - Tested on England
 

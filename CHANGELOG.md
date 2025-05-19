@@ -1,7 +1,7 @@
 # Changelog
  
 > **Note:** This changelog is maintained internally by the RDMAI DS team.  
-> It documents updates made to the **BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection** model between **May and October 2025**.  
+> It documents updates made to the **OpenRealTimeClassificationModel** model between **May and October 2025**.  
 > This file is provided for transparency only and is **not intended for external use or contribution.**
  
 ---

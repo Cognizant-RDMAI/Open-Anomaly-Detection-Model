@@ -9,7 +9,7 @@ The model is developed using Python and related dependencies. To run the model, 
 
 ### RoLA
 ![alt text]([image.jpg](https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/blob/main/image.jpg))
-
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ### Instructions of running RolA 
 
@@ -25,6 +25,16 @@ The model is developed using Python and related dependencies. To run the model, 
 # Citations
 
 # Acknowledgements
+
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
 
 
 

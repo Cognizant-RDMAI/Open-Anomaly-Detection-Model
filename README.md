@@ -8,7 +8,7 @@ The model is developed using Python and related dependencies. To run the model, 
 
 
 ### RoLA
-![alt text](image.jpg)
+![alt text]([image.jpg](https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/blob/main/image.jpg))
 
 
 ### Instructions of running RolA 

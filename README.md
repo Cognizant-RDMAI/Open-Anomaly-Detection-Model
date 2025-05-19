@@ -15,8 +15,9 @@ A range of selected parameters were chosen taking into account values of interes
 ## 4. Directory Structure
     OpenSlurryTanksDetectionModel/
     ├── README.md                 # Project overview and usage instructions
-    ├── Multiparameter.py         # Model for multi parameter
-    ├── SingleParameter.py        # Model for sinle parameter
+    ├── MultiParameter.py         # Model for multi parameter
+    ├── SingleParameter.py        # Model for single parameter
+    ├── Decomposition and Correlation Matrix.py        # Model for single parameter
     ├── MODEL_CARD.md             # Model details
     ├── INSTALL.md                # Step-by-step installation instructions
     ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)

@@ -8,7 +8,7 @@ The model is developed using Python and related dependencies. To run the model, 
 
 
 ### RoLA
-![alt text](goo.png)
+![alt text](image.jpg)
 
 
 ### Instructions of running RolA 

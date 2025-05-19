@@ -11,8 +11,6 @@ The model is developed using Python and related dependencies. To run the model, 
 ![alt text](goo.png)
 
 
-
-
 ### Instructions of running RolA 
 
 

@@ -11,10 +11,27 @@ The model is developed using Python and related dependencies. To run the model, 
 
 A range of selected parameters were chosen taking into account values of interest and those that fall under Section 82 regulations and include pH, dissolved oxygen, turbidity, conductivity, temperature, chlorophyll (cphyll), ammonium, and saturated dissolved oxygen percentage. These readings provide a detailed temporal record of water quality conditions.  
 
+
+## 4. Directory Structure
+    OpenSlurryTanksDetectionModel/
+    ├── README.md                 # Project overview and usage instructions
+    ├── detection.ipynb           # Inference and post-processing workflow
+    ├── slurry_tank_model.ipynb   # Model training, augmentation, and evaluation
+    ├── MODEL_CARD.md             # Model details
+    ├── INSTALL.md                # Step-by-step installation instructions
+    ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)
+    ├── CHANGELOG.md              # List of changes and improvements made to the project
+    ├── requirements.txt          #python libraries required 
+    ├── runs/
+    │   └── model_weight/         # Trained YOLOv8 model weights (e.g., best.pt)
+    └── LICENSE                   # Licensing information and usage rights
+
+
 ## 3. Online Anomly Detection From Single Parameter Sensor Data Stream
 ![alt text](goo.jpg)
 [![IMAGE ALT TEXT HERE](goo.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 <img width="511" alt="image" src="https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/blob/main/goo.jpg" />
+
 ### Instructions of running RolA 
 
 

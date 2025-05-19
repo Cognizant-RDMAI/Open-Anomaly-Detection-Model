@@ -23,6 +23,28 @@ Electrical Conductivity (EC)
 
 Anomalies are detected using the IQR (Interquartile Range) method and visualized in a dynamic Matplotlib animation. 
 
+
+**Summary of data exploration:   **
+
+ 
+
+The dataset includes water quality readings from ten catchment areas: Clayhithe, Crimple Back, Lee Lea Bridge, Lee Springfield, Monks Leaze, Pymmes Brook East, Pymmes Brook West, Wharfe, and Witcombe. Each location is identified using upstream and downstream sensor data.  
+
+A range of selected parameters were chosen taking into account values of interest and those that fall under Section 82 regulations and include pH, dissolved oxygen, turbidity, conductivity, temperature, chlorophyll (cphyll), ammonium, and saturated dissolved oxygen percentage.  
+
+Data was collected over a period from September 15, 2014, to December 15, 2016. Each variable has a total of 37,255 readings. These readings provide a detailed temporal record of water quality conditions.  
+
+The sensors captured both chemical and physical indicators to help assess environmental health. Data consistency across all locations allows for comparative analysis. 
+
+
+
+
+
+
+
+
+
+
 📁 Files 
 
 main_plot.py: Main Python script for real-time visualization and anomaly detection. 

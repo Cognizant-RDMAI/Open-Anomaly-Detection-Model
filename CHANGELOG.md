@@ -1,26 +1,24 @@
 # Changelog
  
 > **Note:** This changelog is maintained internally by the RDMAI DS team.  
-> It documents updates made to the **BB2Ai - Slurry Tank Identification** model between **May and October 2025**.  
+> It documents updates made to the **BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection** model between **May and October 2025**.  
 > This file is provided for transparency only and is **not intended for external use or contribution.**
  
 ---
  
 ## [May 2025]
  
-- Initial release of the YOLOv8-based slurry tank detection model
+- Initial release of BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection
 
-- Tested on England, Denmark (train), and Wales (validation)
+- Tested on England
 
 - Model published with:
 
   - Training and inference notebooks
 
-  - Preprocessing pipeline for large satellite images
+  - Preprocessing pipeline
 
-  - GeoJSON output integration with GIS tools
-
-- Repository structure finalized and made public for review
+  - Repository structure finalized and made public for review
  
 ---
  
@@ -28,9 +26,8 @@
  
 - **Upcoming (Planned):**
 
-  - Evaluate model generalizability across additional catchments with different terrain types
+  - Evaluate model generalizability 
 
- 
 ---
  
 ## [July 2025] — *To be updated*

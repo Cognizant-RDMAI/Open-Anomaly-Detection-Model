@@ -52,6 +52,5 @@ As Cognizant’s responsibility for development concludes with the RDMAI program
 
 **Pull requests and code contributions are not accepted.**
  
----
- 
+---  
  

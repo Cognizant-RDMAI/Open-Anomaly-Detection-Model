@@ -25,17 +25,6 @@ A range of selected parameters were chosen taking into account values of interes
     └── LICENSE                   # Licensing information and usage rights
 
 
-## 3. Online Anomly Detection From Single Parameter Sensor Data Stream
-![alt text](https://raw.githubusercontent.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/main/goo.jpg)
-[![IMAGE ALT TEXT HERE](goo.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-<img width="511" alt="image" src="https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/blob/main/goo.jpg" />
-
-
-
-## 4. Online Anomly Detection From Multi Parameter Sensor Data Stream
-
-
-
 # License and Disclaimers
 
 The Colab notebooks and the associated code are licensed under MIT 4.0. You may obtain a copy of the License at: [MIT](https://opensource.org/license/mit)

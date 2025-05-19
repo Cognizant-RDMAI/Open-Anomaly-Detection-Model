@@ -13,7 +13,7 @@ A range of selected parameters were chosen taking into account values of interes
 
 ## 3. Online Anomly Detection From Single Parameter Sensor Data Stream
 ![alt text](goo.jpg)
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](goo.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ### Instructions of running RolA 
 

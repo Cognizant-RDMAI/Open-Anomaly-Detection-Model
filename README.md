@@ -7,6 +7,10 @@ To safeguard public health and protect the environment, online and continuous wa
 The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
 
 
+## 3. Summary of data exploration:
+
+A range of selected parameters were chosen taking into account values of interest and those that fall under Section 82 regulations and include pH, dissolved oxygen, turbidity, conductivity, temperature, chlorophyll (cphyll), ammonium, and saturated dissolved oxygen percentage. These readings provide a detailed temporal record of water quality conditions.  
+
 ## 3. Online Anomly Detection From Single Parameter Sensor Data Stream
 ![alt text]([image.jpg](https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection-/blob/main/image.jpg))
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
@@ -67,17 +71,7 @@ Electrical Conductivity (EC)
 Anomalies are detected using the IQR (Interquartile Range) method and visualized in a dynamic Matplotlib animation. 
 
 
-## Summary of data exploration:
 
- 
-
-The dataset includes water quality readings from ten catchment areas: Clayhithe, Crimple Back, Lee Lea Bridge, Lee Springfield, Monks Leaze, Pymmes Brook East, Pymmes Brook West, Wharfe, and Witcombe. Each location is identified using upstream and downstream sensor data.  
-
-A range of selected parameters were chosen taking into account values of interest and those that fall under Section 82 regulations and include pH, dissolved oxygen, turbidity, conductivity, temperature, chlorophyll (cphyll), ammonium, and saturated dissolved oxygen percentage.  
-
-Data was collected over a period from September 15, 2014, to December 15, 2016. Each variable has a total of 37,255 readings. These readings provide a detailed temporal record of water quality conditions.  
-
-The sensors captured both chemical and physical indicators to help assess environmental health. Data consistency across all locations allows for comparative analysis. 
 
 
 

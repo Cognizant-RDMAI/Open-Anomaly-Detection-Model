@@ -1,4 +1,4 @@
-# Contributing to BB3AB
+# Contributing to OpenRealTimeClassificationModel
 
 Thank you for considering contributing to BB3AB! We welcome feedback and suggestions, but please note that **code contributions (such as pull requests, forks, or edits) are not permitted at this time**.
 This repository is part of an internal research and development initiative and is intended to showcase the project outcomes to the wider community.

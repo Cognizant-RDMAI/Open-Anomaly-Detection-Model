@@ -1,5 +1,5 @@
 Installation Guide
-This guide walks you through setting up the **BB2Ai - Slurry-Tank-Identification** project in your local or cloud environment.
+This guide walks you through setting up the **BB3AB - Slurry-Real Time Multiparameter Anomaly Identification and Detection** project in your local or cloud environment.
  
 > **Note:** This repository is shared for transparency and reproducibility.  
 > Code contributions are not accepted at this time.
@@ -9,7 +9,7 @@ This guide walks you through setting up the **BB2Ai - Slurry-Tank-Identification
 ### 1. Clone the repository
  
 First, clone this project to your local machine or cloud environment
-```https://github.com/Cognizant-RDMAI/OpenSlurryTanksDetectionModel```
+```https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection```
 This will download all project files including the model scripts
  
 ### 2. Create a Python Virtual Environment (Optional but Recommended)
@@ -29,20 +29,18 @@ All required Python packages are listed in the ```requirements.txt``` file. To i
 pip install -r requirements.txt
 ```
 This includes:
-- Ultralytics: YOLOv8 implementation
-- Rasterio: For working with GeoTIFF satellite images
-- OpenCV: Image Processing
+- matplotlib
+- pandas
 - NumPy: Array and math operations
+- Animate
 
-### 3. Prepare Images and Run Detection pipeline
-Input satellite images should be placed in:
+### 3. Ingest Real Time Data and Run E2E pipeline
+Input data should be either API callable via JSON or in the form of CSV:
 ```
 datasets/
-└── satellite/
+└── multiParameter/
     └── <your_folder>/
-        ├── input_image.tif
+        ├── inpput
         └── ...
 ```
-Processed files will be auto auto-created in:
-```datasets/satellite/<your_folder>/processing/```
-Use the ```detection.ipynb``` notebook to run the full pipeline
+Use the ```multiparameter.py``` to run the full pipeline

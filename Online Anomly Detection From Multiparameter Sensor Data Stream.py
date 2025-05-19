@@ -14,9 +14,11 @@ import matplotlib.animation as animation
 # ===============================
 # Load data from online APIs or CSVs (paths hidden).
 # ===============================
-# Read time index from a API
+# Read time index from a API using following way and store incrementally otherwise store the data in csv and fetch each point incrementally. For this POV, we are fetching data incrementally from csv that is being updtaed through API.
 url = "enter your url"
 data = pd.read_csv(url)
+
+#Fetch data 
 
 data_index = pd.read_csv('.../index.csv')  # Hidden path
 

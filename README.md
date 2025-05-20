@@ -1,19 +1,5 @@
 # BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection
 
-Introduction for the model (what is this? ) 
-Motivation (provided by Nicolai/Elisabeth - I will send to you before EOD today)
-Project overview (short, provided by Nicolai/Elisabeth - see text above) 
-Purpose and functionality  
-Installation Instructions including requirements 
-Example usage (e.g., Jupyter notebooks) 
-Links to datasets and dependencies 
-Citation details for research papers ,  
-Disclaimer (provided by Nicolai /Elisabeth - see text above) 
-
-
-
-
-
 
 ## 1. Introduction
 To safeguard public health and protect the environment, online and continuous water quality monitoring is crucial for the water sector. Regulatory compliance also necessitates deploying real-time monitoring solutions, which can capture the evolving states of a particular river or water network and provide online information on diverse events (e.g., pollution, CSO, etc.). This work introduces a comprehensive end-to-end (E2E) framework that combines online data ingestion and ascertains real-time anomaly detection for water utilities in the UK.  Online multiparameter time-series data can originate from various sources such as SCADA systems, IoT-based sensors, or sondes deployed in water utilities. These platforms continuously collect environmental data across multiple parameters, enabling real-time monitoring of water quality. A key challenge in this context is detecting anomalies—sudden or unusual changes in the data that may indicate pollution events, sensor faults, or operational issues.  Once detected, it is equally important to categorize these anomalies to distinguish between natural variations, technical errors, and potential threats to water safety. Therefore, our approach focuses on detecting anomalies in continuous water quality monitoring data followed by categorizing anomalies in continuous monitoring data. We capture this heterogeneous time series data and classify anomalies incrementally with respect to time. Second, this approach is scalable and can ingest multiparameter time series data, as required. The model also learns critical features from historical observations to understand the past behavior of parameters to improve accuracy. For validation, the system successfully detected a live sensor fouling event, indicated by a decline in Turbidity and conductivity.    This method strengthens real-time surveillance and supports water utilities in making prompt, informed decisions. 
@@ -31,7 +17,52 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 
 
 ## 5. Installation Instructions including requirements
+Installation Guide
+This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
+ 
+> **Note:** This repository is shared for transparency and reproducibility.  
+> Code contributions are not accepted at this time.
+ 
+--- 
+## Installation Instructions
+### 1. Clone the repository
+ 
+First, clone this project to your local machine or cloud environment
+```https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection```
+This will download all project files including the model scripts
+ 
+### 2. Create a Python Virtual Environment (Optional but Recommended)
+ 
+Using a virtual environment avoids conflicts with other Python packages on your system
+```
+python3 -m venv venv
+source venv/bin/activate    #macOS/Linux
+venv/Scripts/Activate       #Windows
+```
+This creates an isolated environment where all dependencies will be installed.
 
+### 3. Install Dependencies
+ 
+All required Python packages are listed in the ```requirements.txt``` file. To install them:
+```
+pip install -r requirements.txt
+```
+This includes:
+- matplotlib
+- pandas
+- NumPy: Array and math operations
+- Animate
+
+### 3. Ingest Real Time Data and Run E2E pipeline
+Input data should be either API callable via JSON or in the form of CSV:
+```
+datasets/
+└── multiParameter/
+    └── <your_folder>/
+        ├── inpput
+        └── ...
+```
+Use the ```multiparameter.py``` to run the full pipeline
 
 
 ## 6. Example usage (e.g., Jupyter notebooks) 

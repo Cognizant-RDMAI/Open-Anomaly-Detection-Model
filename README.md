@@ -13,6 +13,8 @@ To safeguard public health and protect the environment, online and continuous wa
  
 The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xylem Inc, Water Research Centre Limited, The Rivers Trust and ADAS. The project is further supported by 6 water companies across the United Kingdom and Ireland.*
 
+<p><i>This text is italic</i></p>
+
 ## 4. Purpose and functionality
 
 

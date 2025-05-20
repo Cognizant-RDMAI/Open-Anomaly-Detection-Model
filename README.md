@@ -24,6 +24,23 @@ This guide walks you through setting up the **OpenRealTimeClassificationModel** 
 > Code contributions are not accepted at this time.
  
 --- 
+
+### Directory Structure
+    OpenRealTimeClassificationModel/
+    ├── README.md                 # Project overview and usage instructions
+    ├── MultiParameter.py         # Model for multi parameter
+    ├── SingleParameter.py        # Model for single parameter
+    ├── Decomposition and Correlation Matrix.py        # Model for single parameter
+    ├── MODEL_CARD.md             # Model details
+    ├── INSTALL.md                # Step-by-step installation instructions
+    ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)
+    ├── CHANGELOG.md              # List of changes and improvements made to the project
+    ├── requirements.txt          #python libraries required 
+    └── LICENSE                   # Licensing information and usage rights
+
+
+
+
 ### Clone the repository
  
 First, clone this project to your local machine or cloud environment
@@ -93,19 +110,7 @@ By utilising Open Real Time Classification Model, you acknowledge and accept the
 A range of selected parameters were chosen taking into account values of interest and those that fall under Section 82 regulations and include pH, dissolved oxygen, turbidity, conductivity, temperature, chlorophyll (cphyll), ammonium, and saturated dissolved oxygen percentage. These readings provide a detailed temporal record of water quality conditions.  
 
 
-## 4. Directory Structure
-    OpenRealTimeClassificationModel/
-    ├── README.md                 # Project overview and usage instructions
-    ├── MultiParameter.py         # Model for multi parameter
-    ├── SingleParameter.py        # Model for single parameter
-    ├── Decomposition and Correlation Matrix.py        # Model for single parameter
-    ├── MODEL_CARD.md             # Model details
-    ├── INSTALL.md                # Step-by-step installation instructions
-    ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)
-    ├── CHANGELOG.md              # List of changes and improvements made to the project
-    ├── requirements.txt          #python libraries required 
-    └── LICENSE                   # Licensing information and usage rights
-
+## 4. 
 
 # License and Disclaimers
 

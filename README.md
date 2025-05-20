@@ -18,7 +18,7 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 
 ## 4. Purpose and functionality
 
-### Why offline predictions and classifications are not enough?
+### Why offline predictions and classifications are not enough for water utilities?
 
 
 ### Why was time series decomposition is introduced and its historical values are ingested?

@@ -5,7 +5,15 @@ To protect public health and meet regulatory demands, **real-time water quality 
 
 ### Summary of data exploration:
 
-A range of selected parameters were chosen taking into account values of interest and those that fall under Section 82 regulations and include pH, dissolved oxygen, turbidity, conductivity, temperature, chlorophyll (cphyll), ammonium, and saturated dissolved oxygen percentage. These readings provide a detailed temporal record of water quality conditions.  
+A range of selected parameters were chosen that fall under Section 82 regulations such as 
+- pH,
+- Dissolved Oxygen,
+- Turbidity,
+- Ammonium,
+- Electrical Conductivity,
+
+
+Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
 
 ## 2. Motivation

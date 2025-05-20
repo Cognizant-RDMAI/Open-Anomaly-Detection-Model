@@ -17,6 +17,7 @@ A range of selected parameters were chosen taking into account values of interes
 The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xylem Inc, Water Research Centre Limited, The Rivers Trust and ADAS. The project is further supported by 6 water companies across the United Kingdom and Ireland. </i></p>
 
 ## 4. Purpose and functionality
+Online models process sensor data in real time, enabling immediate detection of anomalies like chemical spills or microbial contamination—offline models analyze data too late to prevent harm.
 
 ### Why offline predictions and classifications are not enough for water utilities?
 - **Real-time decisions are critical** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
@@ -24,9 +25,8 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 - **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
 
 
-
 ### Why was time series decomposition is introduced and its historical values are ingested?
-
+In general, water sensors generates multivariate time-series data. Time series decomposition separates this time series data into trend, seasonality, and residual components. One can use this information to understand underlying patterns and behaviors in the data.
 <div align="center">
   <img width = "40%" src="https://github.com/user-attachments/assets/5f2dab38-9227-49a2-8386-53033489cf0d">
 </div>

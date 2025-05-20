@@ -20,18 +20,6 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 
 ### Why offline predictions and classifications are not enough for water utilities?
 
-### Real Time Anomaly Detection and Classification?
-
-- Single Parameter
-
-<div align="center">
-  <img width = "40%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
-</div>
-
-- Multiparameter 
-<div align="center">
-  <img width = "40%" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee">
-</div>
 
 ### Why was time series decomposition is introduced and its historical values are ingested?
 
@@ -105,6 +93,20 @@ Use the ```multiparameter.py``` to run the full pipeline
 
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
+
+### Real Time Anomaly Detection and Classification?
+
+- Single Parameter
+
+<div align="center">
+  <img width = "40%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
+</div>
+
+- Multiparameter 
+<div align="center">
+  <img width = "40%" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee">
+</div>
+
 
 ## 7. Links to datasets and dependencies 
 

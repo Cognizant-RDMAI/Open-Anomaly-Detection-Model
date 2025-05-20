@@ -152,10 +152,7 @@ The following image illustrates real-time anomaly detection in a turbidity datas
 
 ## 7. Links to datasets and dependencies 
 
-Some of the multiparameter dataset can be obtained from hydrology data from EA i.e [EA](https://www.google.com), [matplotlib](https://matplotlib.org/),
-
-
-The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
+Some of the multiparameter dataset can be obtained from hydrology data from EA i.e [EA](https://environment.data.gov.uk/hydrology/explore). The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
 
 
 ## 8. Citation details for research papers

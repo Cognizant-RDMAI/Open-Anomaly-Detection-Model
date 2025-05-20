@@ -26,10 +26,9 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 ### Real Time Anomaly Detection and Classification?
 
 - Single Parameter
-![image](https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
+  <img width="377" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
 </div>
 
 - Multiparameter 

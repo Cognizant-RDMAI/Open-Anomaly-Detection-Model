@@ -37,6 +37,7 @@ Online models process sensor data in real time, enabling immediate detection of 
 In general, water sensors generates multivariate time-series data. Time series decomposition separates this time series data into trend, seasonality, and residual components. One can use this information to understand underlying patterns and behaviors in the data.
 <div align="center">
   <img width = "40%" src="https://github.com/user-attachments/assets/5f2dab38-9227-49a2-8386-53033489cf0d">
+  <figcaption>Code World</figcaption>
 </div>
 
 ### Possible extensions
@@ -116,11 +117,13 @@ The following image illustrates real-time anomaly detection in a turbidity datas
 
 <div align="center">
   <img width = "40%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
+  <figcaption>Code World</figcaption>
 </div>
 
 - Multiparameter 
 <div align="center">
   <img width = "40%" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee">
+  <figcaption>Code World</figcaption>
 </div>
 
 

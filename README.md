@@ -44,7 +44,7 @@ This guide walks you through setting up the **OpenRealTimeClassificationModel** 
 ### Clone the repository
  
 First, clone this project to your local machine or cloud environment
-```https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection```
+```https://github.com/Cognizant-RDMAI/OpenRealTimeClassificationModel```
 This will download all project files including the model scripts
  
 ### Create a Python Virtual Environment (Optional but Recommended)

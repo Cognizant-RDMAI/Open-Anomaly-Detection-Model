@@ -20,9 +20,6 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 
 ### Why offline predictions and classifications are not enough for water utilities?
 
-
-
-
 ### Real Time Anomaly Detection and Classification?
 
 - Single Parameter

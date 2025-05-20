@@ -1,4 +1,4 @@
-# BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection
+# OpenRealTimeClassificationModel
 
 
 ## 1. Introduction
@@ -9,11 +9,9 @@ To safeguard public health and protect the environment, online and continuous wa
 - provided by Nicolai/Elisabeth
 
 ## 3. Project Overview
-*River Deep Mountain AI is an innovation project funded by the Ofwat Innovation Fund working collaboratively to develop open-source AI/ML models that can inform effective actions to tackle waterbody pollution. 
+<p><i>River Deep Mountain AI is an innovation project funded by the Ofwat Innovation Fund working collaboratively to develop open-source AI/ML models that can inform effective actions to tackle waterbody pollution. 
  
-The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xylem Inc, Water Research Centre Limited, The Rivers Trust and ADAS. The project is further supported by 6 water companies across the United Kingdom and Ireland.*
-
-<p><i>This text is italic</i></p>
+The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xylem Inc, Water Research Centre Limited, The Rivers Trust and ADAS. The project is further supported by 6 water companies across the United Kingdom and Ireland. </i></p>
 
 ## 4. Purpose and functionality
 
@@ -26,14 +24,13 @@ This guide walks you through setting up the **OpenRealTimeClassificationModel** 
 > Code contributions are not accepted at this time.
  
 --- 
-## Installation Instructions
-### 1. Clone the repository
+### Clone the repository
  
 First, clone this project to your local machine or cloud environment
 ```https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection```
 This will download all project files including the model scripts
  
-### 2. Create a Python Virtual Environment (Optional but Recommended)
+### Create a Python Virtual Environment (Optional but Recommended)
  
 Using a virtual environment avoids conflicts with other Python packages on your system
 ```
@@ -43,7 +40,7 @@ venv/Scripts/Activate       #Windows
 ```
 This creates an isolated environment where all dependencies will be installed.
 
-### 3. Install Dependencies
+### Install Dependencies
  
 All required Python packages are listed in the ```requirements.txt``` file. To install them:
 ```
@@ -55,7 +52,7 @@ This includes:
 - NumPy: Array and math operations
 - Animate
 
-### 3. Ingest Real Time Data and Run E2E pipeline
+### Ingest Real Time Data and Run E2E pipeline
 Input data should be either API callable via JSON or in the form of CSV:
 ```
 datasets/

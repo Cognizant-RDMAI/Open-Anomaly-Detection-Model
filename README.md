@@ -27,7 +27,7 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
   <img width = "40%" src="https://github.com/user-attachments/assets/5f2dab38-9227-49a2-8386-53033489cf0d">
 </div>
 
-### Possible Extensions
+### Possible extensions
 - Real Time Multiparameter Anomaly Detection
 - Real Time Sensor Fouling Event Detection
 - Real Time Correlation Analysis
@@ -35,7 +35,7 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 - Real Time Event Classification
 
 
-## 5. Installation Instructions including requirements
+## 5. Installation instructions including requirements
 Installation Guide
 This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
  

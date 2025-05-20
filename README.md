@@ -27,7 +27,12 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
   <img width = "40%" src="https://github.com/user-attachments/assets/5f2dab38-9227-49a2-8386-53033489cf0d">
 </div>
 
-### Challenges and alternatives
+### Possible Extensions
+- Real Time Multiparameter Anomaly Detection
+- Real Time Sensor Fouling Event Detection
+- Real Time Correlation Analysis
+- Real Time Upstream and Downstream Data Analysis
+- Real Time Event Classification
 
 
 ## 5. Installation Instructions including requirements

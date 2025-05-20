@@ -12,8 +12,11 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 - Ammonium,
 - Electrical Conductivity,
 
-
 Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
+
+
+### Multiparameter data set acquisition (Note that, the model ingest the data incrementally point by point)
+
 
 
 ## 2. Motivation
@@ -125,6 +128,26 @@ The following image illustrates real-time anomaly detection in a turbidity datas
   <img width = "40%" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee"><br>
   <figcaption>Real Time Anomaly Detection in a Multiparameter Data Stream</figcaption>
 </div>
+
+### Custom Data Collection
+- * Number of identified locations: *
+- **England** - 8
+
+
+### Training
+- In contrast to offline Machine Learning models, this model trains as data ingest sequentially.
+- 
+
+
+### Identifying the anomalies
+- No manual labeling performed.
+- The model identifies the anomolies in real-time and point the red dot over the anomly.
+- Anomolies were directly exported to CSV file in binary format (0,1)
+- Commonly detects sudden changes and variations in the time-series data
+- Model perfors normalization in order to align the data.
+
+  
+
 
 
 ## 7. Links to datasets and dependencies 

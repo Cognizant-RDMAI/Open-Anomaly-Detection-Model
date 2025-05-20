@@ -28,7 +28,11 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 - Single Parameter
 
 <div align="center">
-  <img width = "33%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
+  <img width = "40%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
+</div>
+
+<div align="center">
+  <img width = "40%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94">
 </div>
 
 - Multiparameter 

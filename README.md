@@ -23,6 +23,9 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 ### Why was time series decomposition is introduced and its historical values are ingested?
 
 
+### Challenges and alternatives
+
+
 ## 5. Installation Instructions including requirements
 Installation Guide
 This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
@@ -88,6 +91,10 @@ Use the ```multiparameter.py``` to run the full pipeline
 ## 6. Example usage (e.g., Jupyter notebooks) 
 
 ## 7. Links to datasets and dependencies 
+
+Some of the multiparameter dataset can be obtained from hydrology data from EA i.e [EA](https://www.google.com), [matplotlib](https://matplotlib.org/),
+
+
 The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
 
 

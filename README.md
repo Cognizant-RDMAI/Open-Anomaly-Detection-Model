@@ -29,7 +29,7 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 ![image](https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94)
 
 - Multiparameter 
-<img width="377" alt="multiPara" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee" />
+<img width="377" alt="multiPara" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee" class="center" />
 
 
 ### Why was time series decomposition is introduced and its historical values are ingested?

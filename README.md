@@ -19,6 +19,10 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 ## 4. Purpose and functionality
 
 ### Why offline predictions and classifications are not enough for water utilities?
+- **Real-time decisions are critical** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
+- **Offline models miss dynamic patterns** — water conditions change rapidly, requiring continuous monitoring and adaptive analytics.
+- **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
+
 
 
 ### Why was time series decomposition is introduced and its historical values are ingested?

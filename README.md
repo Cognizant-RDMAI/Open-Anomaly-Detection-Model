@@ -17,6 +17,10 @@ A range of selected parameters were chosen taking into account values of interes
 The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xylem Inc, Water Research Centre Limited, The Rivers Trust and ADAS. The project is further supported by 6 water companies across the United Kingdom and Ireland. </i></p>
 
 ## 4. Purpose and functionality
+### Why offline predictions and classifications are not enough?
+
+
+### Why was time series decomposition is introduced and its historical values are ingested?
 
 
 ## 5. Installation Instructions including requirements

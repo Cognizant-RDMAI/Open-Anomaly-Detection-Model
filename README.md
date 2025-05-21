@@ -119,7 +119,12 @@ datasets/
 ### Running the Model
 Input multi parameter data stream could be obtain from JSON. Use the ```multiParameter.py``` to run the full pipeline.
 
-
+### Planned Improvements
+- Real-Time Event Classification planned.
+  - 1. Dry weather sewage spills
+    2. Dry weather agricultural pollution 
+    3. Runoff: pollution (there is a significant input of organic matter that produces a negative impact despite dilution effects)
+    4. Runoff: dilution (changes associated with high rainfall – but no negative impact discernible from sensor data)  
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
 This package provides three pretrained models:
@@ -168,5 +173,9 @@ Some of the multiparameter dataset can be obtained from hydrology data from EA i
 Open Real Time Classification Model is an experimental research work developed as part of River Deep Mountain AI. You are fully responsible for assessing whether its use or distribution is appropriate for your needs. Any risks associated with using or distributing this model and its outputs are solely yours to assume.
  
 By utilising Open Real Time Classification Model, you acknowledge and accept the rights and permissions granted under the relevant license. Exercise caution when relying on, publishing, downloading, or otherwise using Open Real Time Classification Model  or any generated outputs.
+
+
+## 10. Cite this work
+If you use part of the model. Please consider citing this model as follows:
 
 

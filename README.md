@@ -69,7 +69,7 @@ This guide walks you through setting up the **OpenRealTimeClassificationModel** 
     ├── README.md                 # Project overview and usage instructions
     ├── MultiParameter.py         # Model for multi parameter
     ├── SingleParameter.py        # Model for single parameter
-    ├── Decomposition.ipynb       # Model for time series decomposition for single parameter
+    ├── Decomposition and correlation matrix.ipynb       # Model for time series decomposition for single parameter
     ├── MODEL_CARD.md             # Model details (empty at the moment)
     ├── INSTALL.md                # Step-by-step installation instructions
     ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)

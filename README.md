@@ -41,8 +41,7 @@ The model was designed to work as part of a fully automated End-to-End (E2E) sen
    - Single Parameter
    - Multi parameter
 
--  **Integration**: The model can be integrated with E2E pipeline over any cloud platform.
--  **Integration**: Model process data incrementally, and can be scaled for any number of multi-variate data streams. However, the user needs to adjust the visualisation and normalization accordingly.
+-  **Integration**: The model can be integrated with E2E pipeline over any cloud platform. Model process data incrementally, and can be scaled for any number of multi-variate data streams. However, the user needs to adjust the visualisation and normalization accordingly.
 -  **Scalability**: Process the data array at a time $t$. Can be expended to include further parameters, however, this may increase computational complexity and lower the speed. The may create synchronisation challenges.
 
 

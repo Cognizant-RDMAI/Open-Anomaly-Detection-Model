@@ -1,10 +1,10 @@
 # Open Real Time Classification Model
 
-This package contains example code to run the Real-Time Anomaly Detection and Classification Model for real-time multivariate data streams for water utilities. Sensors, often used to monitor water quality in real time, generate multivariate time-series of diverse parameters. Real-time monitoring and tracking of changes provide critical insights, such as identification of pollution events, CSO events, sensor anomalies, or any other issues. This work addresses the aforementioned challenges by tracking multi-parameter sensor data streams in real time, identifying the anomalies, and classifying the anomalies in real time.
+This package contains example code for running the Real-Time Anomaly Detection and Classification Model on real-time multivariate data streams for water utilities. Sensors commonly used to monitor water quality in real time generate multivariate time series of diverse parameters. Real-time monitoring and change tracking provide critical insights, such as detecting pollution events, CSO events, sensor anomalies, or other issues. This work addresses these challenges by tracking multi-parameter sensor data streams in real time, identifying anomalies, and classifying them accordingly.
 
-The model ingests the real-time multivariate data streams, learns the complex patterns, and identifies/classifies the anomalous using IQR approaches. We selected the IQR approach, rule-based approach, and time series decomposition. The IQR approach identifies the sudden thresholds, the rule-based approach identifies the parameter distribution, and time series decomposition helps to understand the historical trends and seasonality in the parameter space. The anomaly identification work is ongoing and will be implemented in the next version.
+The model ingests real-time multivariate data streams, learns complex patterns, and identifies/classifies anomalies using IQR-based methods. We employ the IQR approach, a rule-based approach, and time series decomposition. The IQR method detects sudden threshold breaches, the rule-based method captures parameter distribution patterns, and time series decomposition reveals historical trends and seasonality. Anomaly identification is ongoing and will be included in the next version.
 
-Beyond identification, this model can be seamlessly integrated with the API. Furthermore, the capability is intended to support upstream and downstream monitoring, event detection, and sensor fouling in real time.
+Beyond detection, the model can be seamlessly integrated with an API. Additionally, it supports upstream and downstream monitoring, event detection, and sensor fouling identification in real time.
 
 
 

@@ -183,6 +183,7 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 ### Water Quality Parameters and Respective Thresholds as per EPA
 We also relies over the thersholds as defined by environmental agency guidelines.
 
+<div align="center">
 | Parameter                  | Threshold (μ̄)     |
 |---------------------------|--------------------|
 | pH                        | 6.5 – 8.5          |
@@ -191,7 +192,7 @@ We also relies over the thersholds as defined by environmental agency guidelines
 | Electrical Conductivity   | ≤ 1500 µS/cm       |
 | Temperature               | ≤ 35°C             |
 | Ammonia (as NH₃)          | ≤ 0.5 mg/L         |
-
+</div>
 
 ### Custom Data Collection
 _Number of identified locations:_

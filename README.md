@@ -32,10 +32,20 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 ## 4. Purpose and functionality
 Online models process sensor data in real time, enabling immediate detection of anomalies like chemical spills or microbial contamination—offline models analyze data too late to prevent harm.
 
-### Why offline predictions and classifications are not enough for water utilities?
-- **Real-time decisions are critical** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
+- **Real-time decisions making** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
 - **Offline models miss dynamic patterns** — water conditions change rapidly, requiring continuous monitoring and adaptive analytics.
 - **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
+
+The model was designed to work as part of a fully automated End-to-End (E2E) sensor datastream pipeline. It performs the following core functions:
+- **Anomaly Detection**
+   - Single Parameter
+   - Multi parameter
+
+-  **Integration**: The model can be integrated with E2E pipeline over any cloud platform.
+-  **Integration**: Model process data incrementally, and can be scaled for any number of multi-variate data streams. However, the user needs to adjust the visualisation and normalization accordingly.
+-  **Scalability**: Process the data array at a time $t$. Can be expended to include further parameters, however, this may increase computational complexity and lower the speed. The may create synchronisation challenges.
+
+
 
 > [!NOTE]
 > Why was time series decomposition is introduced and its historical values are ingested?

@@ -43,7 +43,8 @@ Online models process sensor data in real time, enabling immediate detection of 
 - **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
 
 > [!NOTE]
-### Why was time series decomposition is introduced and its historical values are ingested?
+> Why was time series decomposition is introduced and its historical values are ingested?
+
 In general, water sensors generates multivariate time-series data. Time series decomposition separates this time series data into trend, seasonality, and residual components. One can use this information to understand underlying patterns and behaviors in the data.
 <br>
 <div align="center">

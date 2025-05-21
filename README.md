@@ -164,9 +164,6 @@ This package provides three pretrained models:
 <br>
 
 
-### Custom Data Collection
-_Number of identified locations:_
-- **England** - 8
 
 
 ### Summary of data exploration:
@@ -182,6 +179,23 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 > [!NOTE]
 > Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
+
+### Water Quality Parameters and Respective Thresholds as per EPA
+We also relies over the thersholds as defined by environmental agency guidelines.
+
+| Parameter                  | Threshold (μ̄)     |
+|---------------------------|--------------------|
+| pH                        | 6.5 – 8.5          |
+| Dissolved Oxygen (DO)     | ≥ 5 mg/L           |
+| Turbidity                 | ≤ 5 NTU            |
+| Electrical Conductivity   | ≤ 1500 µS/cm       |
+| Temperature               | ≤ 35°C             |
+| Ammonia (as NH₃)          | ≤ 0.5 mg/L         |
+
+
+### Custom Data Collection
+_Number of identified locations:_
+- **England** - 8
 
 
 ### Training

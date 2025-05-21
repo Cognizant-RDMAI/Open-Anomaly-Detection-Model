@@ -154,7 +154,7 @@ This package provides three pretrained models:
 
 
 
-```Decomposition and correlation metrix.ipynb```: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open TimeDecomp.ipynb in VertaxAI, which gives an example of loading data and computing diverse components of a time series using prophet. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
+```Decomposition and correlation metrix.ipynb```: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open ```Decomposition and correlation metrix.ipynb``` in VertaxAI, which gives an example of loading data and computing diverse components of a time series using ```prophet```. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
 
 <br>
 <div align="center">

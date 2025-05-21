@@ -13,18 +13,6 @@ This package contains example code to run the Real Time Anomaly Detection and Cl
 ## 1. Introduction
 To protect public health and meet regulatory demands, **real-time water quality monitoring** is essential. This work presents an approach to detect and classifying anomalies in multiparameter time-series data-stream, ingested from water quality sensor. Furthermore, the system identifies unusual patterns—such as pollution or sensor faults—and categorizes them in real time. It learns from historical data to improve accuracy and scalability, and have detected live events such as sensor fouling, contamination, and rainfall for water utilities.
 
-### Summary of data exploration:
-
-A range of selected parameters were chosen that fall under Section 82 regulations such as 
-- pH,
-- Dissolved Oxygen,
-- Turbidity,
-- Ammonium,
-- Temperature
-- Electrical Conductivity,
-
-> [!NOTE]
-> Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
 ## 2. Motivation
 In response to the worsening state of UK rivers, the government is prioritising early pollution detection and real-time monitoring through the Environment Act 2021. While modern sensor networks generate vast, high frequency data, interpreting these at scale remains a significant challenge. Traditional methods rely on timely manual review processes and often fail to distinguish between natural variations, pollution events or sensor faults. This leads to costly equipment damage, failing to meet regulatory compliance and more importantly reduced ability to mitigate impact of pollution events.
@@ -165,6 +153,21 @@ This package provides three pretrained models:
 ### Custom Data Collection
 _Number of identified locations:_
 - **England** - 8
+
+
+### Summary of data exploration:
+
+A range of selected parameters were chosen that fall under Section 82 regulations such as 
+- pH,
+- Dissolved Oxygen,
+- Turbidity,
+- Ammonium,
+- Temperature
+- Electrical Conductivity,
+
+> [!NOTE]
+> Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
+
 
 
 ### Training

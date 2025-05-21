@@ -52,6 +52,7 @@ In general, water sensors generates multivariate time-series data. Time series d
   <figcaption>Decomposition of pH</figcaption>
 </div>
 <br>
+
 ### Possible extensions
 - Real Time Multiparameter Anomaly Detection
 - Real Time Sensor Fouling Event Detection

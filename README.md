@@ -20,9 +20,11 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 - Dissolved Oxygen,
 - Turbidity,
 - Ammonium,
+- Temperature
 - Electrical Conductivity,
+- Chlorophyll
 > [!NOTE]
-> Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
+> Although, Electrical Conductivity and Chlorophyll are not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
 ## 2. Motivation
 In response to the worsening state of UK rivers, the government is prioritising early pollution detection and real-time monitoring through the Environment Act 2021. While modern sensor networks generate vast, high frequency data, interpreting these at scale remains a significant challenge. Traditional methods rely on timely manual review processes and often fail to distinguish between natural variations, pollution events or sensor faults. This leads to costly equipment damage, failing to meet regulatory compliance and more importantly reduced ability to mitigate impact of pollution events.

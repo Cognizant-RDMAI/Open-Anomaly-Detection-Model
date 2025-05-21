@@ -2,9 +2,11 @@
 
 This package contains example code to run the Real Time Anomaly Detection and Classification Model. It also provides time-series decomposition approaches in order to learn the seasonality and trands..
 
-Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. 
+> [!NOTE]
+> Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. 
 
-Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
+> [!IMPORTANT]
+> Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
 
 
 
@@ -19,12 +21,8 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 - Turbidity,
 - Ammonium,
 - Electrical Conductivity,
-
-Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
-
-
-
-
+> [!NOTE]
+> Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
 ## 2. Motivation
 - provided by Nicolai/Elisabeth
@@ -42,7 +40,7 @@ Online models process sensor data in real time, enabling immediate detection of 
 - **Offline models miss dynamic patterns** — water conditions change rapidly, requiring continuous monitoring and adaptive analytics.
 - **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
 
-
+> [!NOTE]
 ### Why was time series decomposition is introduced and its historical values are ingested?
 In general, water sensors generates multivariate time-series data. Time series decomposition separates this time series data into trend, seasonality, and residual components. One can use this information to understand underlying patterns and behaviors in the data.
 <br>
@@ -62,8 +60,9 @@ In general, water sensors generates multivariate time-series data. Time series d
 ## 5. Installation instructions including requirements
 Installation Guide
 This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
- 
-> **Note:** This repository is shared for transparency and reproducibility.  
+
+> [!NOTE]
+> This repository is shared for transparency and reproducibility.  
 > Code contributions are not accepted at this time.
  
 
@@ -201,14 +200,12 @@ Open Real Time Classification Model is an experimental research work developed a
 By utilising Open Real Time Classification Model, you acknowledge and accept the rights and permissions granted under the relevant license. Exercise caution when relying on, publishing, downloading, or otherwise using Open Real Time Classification Model  or any generated outputs.
 
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+
 
 > [!TIP]
 > Helpful advice for doing things better or more easily.
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+
 
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.

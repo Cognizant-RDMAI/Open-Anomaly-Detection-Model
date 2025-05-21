@@ -143,7 +143,7 @@ CLASS_NAMES – list of classes your model can detect
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
 This package provides three pretrained models:
-**SingleParameter**: a single-parameter anomaly detection model, was tested over time series observations of Turbidity data from 2016 to 2018. This model can be causally evaluated on any online real-time data from data streams, where data can be ingested via any API, JSON, or online evolving CSV. The following image illustrates real-time anomaly detection in a turbidity dataset. The approach leverages the Interquartile Range (IQR) method to identify anomalies as data streams in, updating the detection algorithm on the fly. However, a key limitation of this method is its reduced sensitivity to long-term pollution trends.
+SingleParameter.py: a single-parameter anomaly detection model, was tested over time series observations of Turbidity data from 2016 to 2018. This model can be causally evaluated on any online real-time data from data streams, where data can be ingested via any API, JSON, or online evolving CSV. The following image illustrates real-time anomaly detection in a turbidity dataset. The approach leverages the Interquartile Range (IQR) method to identify anomalies as data streams in, updating the detection algorithm on the fly. However, a key limitation of this method is its reduced sensitivity to long-term pollution trends.
 
 <br>
 <div align="center">
@@ -152,7 +152,7 @@ This package provides three pretrained models:
 </div>
 <br>
 
-**MultiParameter**: a multi-parameter anomaly detection model, was tested over time series observations of Section 82 parameters along with electrical conductivity. This model can be causally evaluated on any online multi-parameter real-time sensor data from data streams, where data can be ingested via any API, JSON, or online evolving CSV.
+MultiParameter.py: a multi-parameter anomaly detection model, was tested over time series observations of Section 82 parameters along with electrical conductivity. This model can be causally evaluated on any online multi-parameter real-time sensor data from data streams, where data can be ingested via any API, JSON, or online evolving CSV.
 
 <br>
 <div align="center">
@@ -161,7 +161,7 @@ This package provides three pretrained models:
 </div>
 <br>
 
-**TimeDecomp**: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open TimeDecomp.ipynb in VertaxAI, which gives an example of loading data and computing diverse components of a time series using prophet. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
+TimeDecomp.ipynb: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open TimeDecomp.ipynb in VertaxAI, which gives an example of loading data and computing diverse components of a time series using prophet. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
 
 
 ### Custom Data Collection
@@ -199,22 +199,5 @@ Some of the multiparameter dataset can be obtained from hydrology data from EA i
 Open Real Time Classification Model is an experimental research work developed as part of River Deep Mountain AI. You are fully responsible for assessing whether its use or distribution is appropriate for your needs. Any risks associated with using or distributing this model and its outputs are solely yours to assume.
  
 By utilising Open Real Time Classification Model, you acknowledge and accept the rights and permissions granted under the relevant license. Exercise caution when relying on, publishing, downloading, or otherwise using Open Real Time Classification Model  or any generated outputs.
-
-
-
-
-
-> Helpful advice for doing things better or more easily.
-
-
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-
-
 
 

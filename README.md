@@ -105,8 +105,8 @@ pip install -r requirements.txt
 This includes:
 - matplotlib
 - pandas
-- NumPy: Array and math operations
-- Animate
+- numPy: Array and math operations
+- animate
 
 ### Ingest Real Time Data and Run E2E pipeline
 Input data should be either API callable via JSON or in the form of CSV:
@@ -114,10 +114,30 @@ Input data should be either API callable via JSON or in the form of CSV:
 datasets/
 └── multiParameter/
     └── <your_folder>/
-        ├── inpput
+        ├── input
         └── ...
 ```
 Use the ```multiparameter.py``` to run the full pipeline
+
+### Running the Model
+Input multi parameter data stream could be obtain from JSON. Run the full multiParameter.ipynb model for data stream. The pipeline performs the following steps:
+
+Tiling: Splits each large GeoTIFF into 512×512 pixel tiles.
+Image Enhancement & Conversion: Applies contrast stretching and converts tiles to PNG format.
+YOLOv8 Inference: Detects slurry tanks in each PNG tile using the trained YOLOv8 model.
+Geo-referencing & Export: Converts bounding boxes to geographic coordinates and exports all detections to a single .geojson file.
+Processed outputs are stored under:datasets/satellite/<your_folder>/processing/
+
+### Inference Parameters (Customizable in Code)
+You can modify the following in the script to suit your dataset:
+
+INPUT_FOLDER – path to folder with .tif images
+TILE_SIZE – size of image tiles (default is 512)
+MODEL_PATH – path to your trained best.pt weights
+CLASS_NAMES – list of classes your model can detect
+
+
+
 
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
@@ -179,3 +199,24 @@ Some of the multiparameter dataset can be obtained from hydrology data from EA i
 Open Real Time Classification Model is an experimental research work developed as part of River Deep Mountain AI. You are fully responsible for assessing whether its use or distribution is appropriate for your needs. Any risks associated with using or distributing this model and its outputs are solely yours to assume.
  
 By utilising Open Real Time Classification Model, you acknowledge and accept the rights and permissions granted under the relevant license. Exercise caution when relying on, publishing, downloading, or otherwise using Open Real Time Classification Model  or any generated outputs.
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+
+
+

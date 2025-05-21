@@ -1,13 +1,18 @@
 # Open Real Time Classification Model
 
-This package contains example code to run the Real Time Anomaly Detection and Classification Model. It also provides time-series decomposition approaches in order to learn the seasonality and trands..
+This package contains example code to run the Real-Time Anomaly Detection and Classification Model for real-time multivariate data streams for water utilities. Sensors, often used to monitor water quality in real time, generate multivariate time-series of diverse parameters. Real-time monitoring and tracking of changes provide critical insights, such as identification of pollution events, CSO events, sensor anomalies, or any other issues. This work addresses the aforementioned challenges by tracking multi-parameter sensor data streams in real time, identifying the anomalies, and classifying the anomalies in real time.
+
+The model ingests the real-time multivariate data streams, learns the complex patterns, and identifies/classifies the anomalous using IQR approaches. We selected the IQR approach, rule-based approach, and time series decomposition. The IQR approach identifies the sudden thresholds, the rule-based approach identifies the parameter distribution, and time series decomposition helps to understand the historical trends and seasonality in the parameter space. The anomaly identification work is ongoing and will be implemented in the next version.
+
+Beyond identification, this model can be seamlessly integrated with the API. Furthermore, the capability is intended to support upstream and downstream monitoring, event detection, and sensor fouling in real time.
+
+
 
 > [!NOTE]
 > Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. 
 
 > [!IMPORTANT]
 > Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
-
 
 
 ## 1. Introduction

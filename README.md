@@ -1,13 +1,8 @@
 # Open Real Time Classification Model
 
-This package contains example code to run the Real Time Anomaly Detection and Classification Model. It also provides .
+This package contains example code to run the Real Time Anomaly Detection and Classification Model. It also provides time-series decomposition approaches in order to learn the seasonality and trands..
 
-Full model training requires downloading the ERA5 dataset, available from ECMWF. This can best be accessed as Zarr from Weatherbench2's ERA5 data.
-
-Data for operational fine-tuning can similarly be accessed at Weatherbench2's HRES 0th frame data.
-
-These datasets may be governed by separate terms and conditions or license provisions. Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
-
+Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
 
 
 
@@ -26,7 +21,6 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
 
-### Multiparameter data set acquisition (Note that, the model ingest the data incrementally point by point)
 
 
 

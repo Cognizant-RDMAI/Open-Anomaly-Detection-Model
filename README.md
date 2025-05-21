@@ -150,7 +150,7 @@ TimeDecomp.ipynb: A model that ingests a single parameter time series and decomp
 
 
 ### Custom Data Collection
-- * Number of identified locations: *
+_Number of identified locations:_
 - **England** - 8
 
 

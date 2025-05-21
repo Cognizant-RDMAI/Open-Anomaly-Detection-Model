@@ -25,7 +25,9 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 > Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
 
 ## 2. Motivation
-- provided by Nicolai/Elisabeth
+In response to the worsening state of UK rivers, the government is prioritising early pollution detection and real-time monitoring through the Environment Act 2021. While modern sensor networks generate vast, high frequency data, interpreting these at scale remains a significant challenge. Traditional methods rely on timely manual review processes and often fail to distinguish between natural variations, pollution events or sensor faults. This leads to costly equipment damage, failing to meet regulatory compliance and more importantly reduced ability to mitigate impact of pollution events.
+ 
+To address this challenge, we have built a model for automatically detect, classify and validate diverse water quality events in real-time. 
 
 ## 3. Project Overview
 <p><i>River Deep Mountain AI is an innovation project funded by the Ofwat Innovation Fund working collaboratively to develop open-source AI/ML models that can inform effective actions to tackle waterbody pollution. 
@@ -172,15 +174,14 @@ This package provides three pretrained models:
 - 
 
 
+> [!TIP]
+> You do not need to perform manual labeling. The model is designed such as to capture the anomolies autonomously.
+> You need to adjust the normalization in order to fit the chart over scale. This is user dependent.
 ### Identifying the anomalies
-- No manual labeling performed.
+
 - The model identifies the anomolies in real-time and point the red dot over the anomly.
 - Anomolies were directly exported to CSV file in binary format (0,1)
 - Commonly detects sudden changes and variations in the time-series data
-- Model perfors normalization in order to align the data.
-
-  
-
 
 
 ## 7. Links to datasets and dependencies 
@@ -202,7 +203,7 @@ By utilising Open Real Time Classification Model, you acknowledge and accept the
 
 
 
-> [!TIP]
+
 > Helpful advice for doing things better or more easily.
 
 

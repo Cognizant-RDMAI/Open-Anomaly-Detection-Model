@@ -9,10 +9,10 @@ Beyond detection, the model can be seamlessly integrated with an API. Additional
 
 
 > [!NOTE]
-> Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. 
+> Note that, ideally  this model should ingest multi variate data stream from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore). However, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. 
 
 > [!IMPORTANT]
-> Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
+> Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use. These datasets may be governed by separate terms and conditions or license provisions. 
 
 
 ## 1. Introduction

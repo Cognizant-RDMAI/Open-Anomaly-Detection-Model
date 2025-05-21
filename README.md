@@ -64,8 +64,7 @@ Installation Guide
 This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
 
 > [!NOTE]
-> This repository is shared for transparency and reproducibility.  
-> Code contributions are not accepted at this time.
+> This repository is shared for transparency and reproducibility. Code contributions are not accepted at this time.
  
 
 ### Directory Structure

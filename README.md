@@ -119,10 +119,10 @@ datasets/
         ├── input
         └── ...
 ```
-Use the ```multiParameter.py``` to run the full pipeline
+
 
 ### Running the Model
-Input multi parameter data stream could be obtain from JSON. Run the full ```multiParameter.py`` model over multi-parameter data stream. 
+Input multi parameter data stream could be obtain from JSON. Use the ```multiParameter.py``` to run the full pipeline.
 
 
 

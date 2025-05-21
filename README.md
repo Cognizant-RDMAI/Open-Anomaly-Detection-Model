@@ -139,6 +139,13 @@ This package provides three pretrained models:
 
 ```TimeComp.py```: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open TimeDecomp.ipynb in VertaxAI, which gives an example of loading data and computing diverse components of a time series using prophet. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
 
+<br>
+<div align="center">
+  <img width = "40%" src="https://github.com/user-attachments/assets/5f2dab38-9227-49a2-8386-53033489cf0d"><br>
+  <figcaption>Decomposition of pH</figcaption>
+</div>
+<br>
+
 
 ### Custom Data Collection
 _Number of identified locations:_
@@ -177,9 +184,5 @@ Some of the multiparameter dataset can be obtained from hydrology data from EA i
 Open Real Time Classification Model is an experimental research work developed as part of River Deep Mountain AI. You are fully responsible for assessing whether its use or distribution is appropriate for your needs. Any risks associated with using or distributing this model and its outputs are solely yours to assume.
  
 By utilising Open Real Time Classification Model, you acknowledge and accept the rights and permissions granted under the relevant license. Exercise caution when relying on, publishing, downloading, or otherwise using Open Real Time Classification Model  or any generated outputs.
-
-
-## 10. Cite this work
-If you use part of the model. Please consider citing this model as follows:
 
 

@@ -1,6 +1,9 @@
 # Open Real Time Classification Model
 
-This package contains example code for running the Real-Time Anomaly Detection and Classification Model on real-time multivariate data streams for water utilities. Sensors commonly used to monitor water quality in real time generate multivariate time series of diverse parameters. Real-time monitoring and change tracking provide critical insights, such as detecting pollution events, CSO events, sensor anomalies, or other issues. This work addresses these challenges by tracking multi-parameter sensor data streams in real time, identifying anomalies, and classifying them accordingly.
+This package contains example code for running the Real-Time Anomaly Detection and Classification Model on real-time multivariate data streams for water utilities. 
+
+## 1. Introduction
+To protect public health and meet regulatory demands, **real-time water quality monitoring** is essential. This work presents an approach to detect and classifying anomalies in multiparameter time-series data-stream, ingested from water quality sensor. Furthermore, the system identifies unusual patterns—such as pollution or sensor faults—and categorizes them in real time. It learns from historical data to improve accuracy and scalability, and have detected live events such as sensor fouling, contamination, and rainfall for water utilities. Sensors commonly used to monitor water quality in real time generate multivariate time series of diverse parameters. Real-time monitoring and change tracking provide critical insights, such as detecting pollution events, CSO events, sensor anomalies, or other issues. This work addresses these challenges by tracking multi-parameter sensor data streams in real time, identifying anomalies, and classifying them accordingly.
 
 The model ingests real-time multivariate data streams, learns complex patterns, and identifies/classifies anomalies using IQR-based methods. We employ the IQR approach, a rule-based approach, and time series decomposition. The IQR method detects sudden threshold breaches, the rule-based method captures parameter distribution patterns, and time series decomposition reveals historical trends and seasonality. Anomaly classification is ongoing and will be included in the next version.
 
@@ -14,9 +17,6 @@ Beyond detection, the model can be seamlessly integrated with an API. Additional
 > [!IMPORTANT]
 > Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use. These datasets may be governed by separate terms and conditions or license provisions. 
 
-
-## 1. Introduction
-To protect public health and meet regulatory demands, **real-time water quality monitoring** is essential. This work presents an approach to detect and classifying anomalies in multiparameter time-series data-stream, ingested from water quality sensor. Furthermore, the system identifies unusual patterns—such as pollution or sensor faults—and categorizes them in real time. It learns from historical data to improve accuracy and scalability, and have detected live events such as sensor fouling, contamination, and rainfall for water utilities.
 
 
 ## 2. Motivation

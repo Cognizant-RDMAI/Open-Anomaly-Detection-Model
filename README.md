@@ -170,8 +170,8 @@ TimeDecomp.ipynb: A model that ingests a single parameter time series and decomp
 
 
 ### Training
-- In contrast to offline Machine Learning models, this model trains as data ingest sequentially.
-- 
+- Unlike offline Machine Learning models, this model trains and ingest the sequentially and learn from it. 
+
 
 
 > [!TIP]

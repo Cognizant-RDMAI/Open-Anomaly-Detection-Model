@@ -128,6 +128,7 @@ Input multi parameter data stream could be obtain from JSON. Use the ```multiPar
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
 This package provides three pretrained models:
+
 ```singleParameter.py```: a single-parameter anomaly detection model, was tested over time series observations of Turbidity data from 2016 to 2018. This model can be causally evaluated on any online real-time data from data streams, where data can be ingested via any API, JSON, or online evolving CSV. The following image illustrates real-time anomaly detection in a turbidity dataset. The approach leverages the Interquartile Range (IQR) method to identify anomalies as data streams in, updating the detection algorithm on the fly. However, a key limitation of this method is its reduced sensitivity to long-term pollution trends.
 
 

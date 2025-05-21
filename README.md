@@ -122,10 +122,10 @@ Input multi parameter data stream could be obtain from JSON. Use the ```multiPar
 ### Planned Improvements
 _Real-Time Event Classification planned_
 
-    1. Dry weather sewage spills
-    2. Dry weather agricultural pollution 
-    3. Runoff: pollution (there is a significant input of organic matter that produces a negative impact despite dilution effects)
-    4. Runoff: dilution (changes associated with high rainfall – but no negative impact discernible from sensor data)  
+- Dry weather sewage spills
+- Dry weather agricultural pollution
+- Runoff: pollution (there is a significant input of organic matter that produces a negative impact despite dilution effects)
+- Runoff: dilution (changes associated with high rainfall – but no negative impact discernible from sensor data)  
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
 This package provides three pretrained models:
@@ -153,6 +153,8 @@ _Number of identified locations:_
 > [!TIP]
 > You do not need to perform manual labeling. The model is designed such as to capture the anomolies autonomously.
 > You need to adjust the normalization in order to fit the chart over scale. This is user dependent.
+
+
 ### Identifying the anomalies
 
 - The model identifies the anomolies in real-time and point the red dot over the anomly.

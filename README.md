@@ -2,7 +2,7 @@
 
 This package contains example code to run the Real Time Anomaly Detection and Classification Model. It also provides time-series decomposition approaches in order to learn the seasonality and trands..
 
-Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
+Note that this model rely over data acquisition from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore)- however, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. These datasets may be governed by separate terms and conditions or license provisions. Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
 
 
 

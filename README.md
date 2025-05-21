@@ -128,14 +128,14 @@ Input multi parameter data stream could be obtain from JSON. Use the ```multiPar
 
 ## 6. Example usage (e.g., Jupyter notebooks) 
 This package provides three pretrained models:
-SingleParameter.py: a single-parameter anomaly detection model, was tested over time series observations of Turbidity data from 2016 to 2018. This model can be causally evaluated on any online real-time data from data streams, where data can be ingested via any API, JSON, or online evolving CSV. The following image illustrates real-time anomaly detection in a turbidity dataset. The approach leverages the Interquartile Range (IQR) method to identify anomalies as data streams in, updating the detection algorithm on the fly. However, a key limitation of this method is its reduced sensitivity to long-term pollution trends.
+```singleParameter.py```: a single-parameter anomaly detection model, was tested over time series observations of Turbidity data from 2016 to 2018. This model can be causally evaluated on any online real-time data from data streams, where data can be ingested via any API, JSON, or online evolving CSV. The following image illustrates real-time anomaly detection in a turbidity dataset. The approach leverages the Interquartile Range (IQR) method to identify anomalies as data streams in, updating the detection algorithm on the fly. However, a key limitation of this method is its reduced sensitivity to long-term pollution trends.
 
 
-MultiParameter.py: a multi-parameter anomaly detection model, was tested over time series observations of Section 82 parameters along with electrical conductivity. This model can be causally evaluated on any online multi-parameter real-time sensor data from data streams, where data can be ingested via any API, JSON, or online evolving CSV.
+```multiParameter.py```: a multi-parameter anomaly detection model, was tested over time series observations of Section 82 parameters along with electrical conductivity. This model can be causally evaluated on any online multi-parameter real-time sensor data from data streams, where data can be ingested via any API, JSON, or online evolving CSV.
 
 
 
-TimeDecomp.ipynb: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open TimeDecomp.ipynb in VertaxAI, which gives an example of loading data and computing diverse components of a time series using prophet. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
+```TimeComp.py```: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open TimeDecomp.ipynb in VertaxAI, which gives an example of loading data and computing diverse components of a time series using prophet. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
 
 
 ### Custom Data Collection

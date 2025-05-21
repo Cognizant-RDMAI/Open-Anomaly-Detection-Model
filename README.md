@@ -1,5 +1,16 @@
 # Open Real Time Classification Model
 
+This package contains example code to run the Real Time Anomaly Detection and Classification Model. It also provides .
+
+Full model training requires downloading the ERA5 dataset, available from ECMWF. This can best be accessed as Zarr from Weatherbench2's ERA5 data.
+
+Data for operational fine-tuning can similarly be accessed at Weatherbench2's HRES 0th frame data.
+
+These datasets may be governed by separate terms and conditions or license provisions. Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
+
+
+
+
 ## 1. Introduction
 To protect public health and meet regulatory demands, **real-time water quality monitoring** is essential. This work presents an approach to detect and classifying anomalies in multiparameter time-series data-stream, ingested from water quality sensor. Furthermore, the system identifies unusual patterns—such as pollution or sensor faults—and categorizes them in real time. It learns from historical data to improve accuracy and scalability, and have detected live events such as sensor fouling, contamination, and rainfall for water utilities.
 

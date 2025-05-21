@@ -120,8 +120,8 @@ datasets/
 Input multi parameter data stream could be obtain from JSON. Use the ```multiParameter.py``` to run the full pipeline.
 
 ### Planned Improvements
-- Real-Time Event Classification planned.
-  - 1. Dry weather sewage spills
+_Real-Time Event Classification planned_
+    1. Dry weather sewage spills
     2. Dry weather agricultural pollution 
     3. Runoff: pollution (there is a significant input of organic matter that produces a negative impact despite dilution effects)
     4. Runoff: dilution (changes associated with high rainfall – but no negative impact discernible from sensor data)  

@@ -118,26 +118,10 @@ datasets/
         ├── input
         └── ...
 ```
-Use the ```multiparameter.py``` to run the full pipeline
+Use the ```multiParameter.py``` to run the full pipeline
 
 ### Running the Model
-Input multi parameter data stream could be obtain from JSON. Run the full multiParameter.ipynb model for data stream. The pipeline performs the following steps:
-
-Tiling: Splits each large GeoTIFF into 512×512 pixel tiles.
-Image Enhancement & Conversion: Applies contrast stretching and converts tiles to PNG format.
-YOLOv8 Inference: Detects slurry tanks in each PNG tile using the trained YOLOv8 model.
-Geo-referencing & Export: Converts bounding boxes to geographic coordinates and exports all detections to a single .geojson file.
-Processed outputs are stored under:datasets/satellite/<your_folder>/processing/
-
-### Inference Parameters (Customizable in Code)
-You can modify the following in the script to suit your dataset:
-
-INPUT_FOLDER – path to folder with .tif images
-TILE_SIZE – size of image tiles (default is 512)
-MODEL_PATH – path to your trained best.pt weights
-CLASS_NAMES – list of classes your model can detect
-
-
+Input multi parameter data stream could be obtain from JSON. Run the full ```multiParameter.py`` model over multi-parameter data stream. 
 
 
 

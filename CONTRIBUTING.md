@@ -17,8 +17,19 @@ If you encounter a bug or have a feature request, please contact the Cognizant p
 - Any relevant logs, screenshots, or error messages.
 - Suggesting Enhancements
 
+
+## Suggestions
 We welcome suggestions for new features or improvements. To suggest an enhancement:
 
 - A clear and descriptive title.
 - A detailed explanation of the enhancement.
 - Any benefits or use cases for the enhancement.
+
+
+## Coding Standards
+Please adhere to the following coding standards:
+
+- Write clear, concise, and descriptive commit messages.
+- Include comments where necessary to explain complex code.
+- Maintain consistency with the existing codebase.
+- You are not allowed to push code to this project.

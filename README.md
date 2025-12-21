@@ -1,22 +1,36 @@
 # Open Real Time Classification Model
 
-This package contains example code for running the Real-Time Anomaly Detection and Classification Model on real-time multivariate data streams for water utilities. 
+This repository provides an end-to-end (E2E) framework for anomaly detection and clustering in high-frequency water quality monitoring data, specifically designed for Section 82 compliance under the Environment Act 2021 in England.
 
 ## 1. Introduction
-To protect public health and meet regulatory demands, **real-time water quality monitoring** is essential. This work presents an approach to detect and classifying anomalies in multiparameter time-series data-stream, ingested from water quality sensor. Furthermore, the system identifies unusual patterns—such as pollution or sensor faults—and categorizes them in real time. It learns from historical data to improve accuracy and scalability, and have detected live events such as sensor fouling, contamination, and rainfall for water utilities. Sensors commonly used to monitor water quality in real time generate multivariate time series of diverse parameters. Real-time monitoring and change tracking provide critical insights, such as detecting pollution events, CSO events, sensor anomalies, or other issues. This work addresses these challenges by tracking multi-parameter sensor data streams in real time, identifying anomalies, and classifying them accordingly.
+Continuous monitoring of receiving water quality by sewerage undertakers upstream and downstream of their assets is mandated under Section 82 of the Environment Act 2021. Robust methods are required to:
 
-The model ingests real-time multivariate data streams, learns complex patterns, and identifies/classifies anomalies using IQR-based methods. We employ the IQR approach, a rule-based approach, and time series decomposition. The IQR method detects sudden threshold breaches, the rule-based method captures parameter distribution patterns, and time series decomposition reveals historical trends and seasonality. Anomaly classification is ongoing and will be included in the next version.
+Analyze high-frequency monitoring data (typically 15-min to 1-hour intervals)
 
-Beyond detection, the model can be seamlessly integrated with an API. Additionally, it supports upstream and downstream monitoring, event detection, and sensor fouling identification in real time.
+Detect anomalies and pollution events
+
+Support operational and regulatory decision-making
+
+This framework integrates historical and real-time multi-parameter sensor data through a complete pipeline: data ingestion → preprocessing → decomposition → anomaly detection → clustering → visualization.
 
 
-
-> [!NOTE]
-> Note that, ideally  this model should ingest multi variate data stream from the sensors via different API using JSON. For test purposes, one may use CSV as given in [EA](https://environment.data.gov.uk/hydrology/explore). However, model will ingest the data incrementally in a similar fashion as in real time sensor data stream. 
 
 > [!IMPORTANT]
 > Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use. These datasets may be governed by separate terms and conditions or license provisions. 
 
+
+2. Methodology
+flowchart TD
+    A[High-Frequency Section 82 Data Ingestion] --> B[Data Standardization & Preprocessing]
+    B --> C[Time Series Decomposition (MSTL + Harmonic Regression)]
+    C --> D[Residual Computation]
+    D --> E[Anomaly Detection (Isolation Forest)]
+    E --> F[Filtering & Event Classification]
+    F --> G[Clustering (KMeans with Silhouette Analysis)]
+    G --> H[PCA Visualization & Event Interpretation]
+    H --> I[Output: CSV & Plots for Expert Analysis]
+
+   
 
 
 ## 2. Motivation

@@ -19,20 +19,6 @@ This framework integrates historical and real-time multi-parameter sensor data t
 > Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use. These datasets may be governed by separate terms and conditions or license provisions. 
 
 
-2. Methodology
-flowchart TD
-    A[High-Frequency Section 82 Data Ingestion] --> B[Data Standardization & Preprocessing]
-    B --> C[Time Series Decomposition (MSTL + Harmonic Regression)]
-    C --> D[Residual Computation]
-    D --> E[Anomaly Detection (Isolation Forest)]
-    E --> F[Filtering & Event Classification]
-    F --> G[Clustering (KMeans with Silhouette Analysis)]
-    G --> H[PCA Visualization & Event Interpretation]
-    H --> I[Output: CSV & Plots for Expert Analysis]
-
-   
-
-
 ## 2. Motivation
 In response to the worsening state of UK rivers, the government is prioritising early pollution detection and real-time monitoring through the Environment Act 2021. While modern sensor networks generate vast, high frequency data, interpreting these at scale remains a significant challenge. Traditional methods rely on timely manual review processes and often fail to distinguish between natural variations, pollution events or sensor faults. This leads to costly equipment damage, failing to meet regulatory compliance and more importantly reduced ability to mitigate impact of pollution events.
  

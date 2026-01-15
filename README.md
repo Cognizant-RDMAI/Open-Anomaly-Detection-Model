@@ -1,4 +1,4 @@
-# Open Real Time Classification Model
+# Open Multiparameter Anomaly Detection Model
 
 This repository provides an end-to-end (E2E) framework for anomaly detection and clustering in high-frequency water quality monitoring data, specifically designed for Section 82 compliance under the Environment Act 2021 in England.
 

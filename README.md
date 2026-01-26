@@ -3,29 +3,36 @@
 
 ## Motivation, Purpose, Challenges, and Justification
 
-Continuous monitoring of river water quality under **Section 82 of the Environment Act 2021** generates very high-frequency multi-parameter data that cannot be reviewed manually.  
-To extract maximum value from these monitoring programs, there is a clear need for **robust, automated methods** for anomaly detection and event analysis.  
+<p align="justify">
+Continuous monitoring of river water quality under <b>Section 82 of the Environment Act 2021</b> generates very high-frequency multi-parameter data that cannot be reviewed manually. To extract maximum value from these monitoring programs, there is a clear need for <b>robust, automated methods</b> for anomaly detection and event analysis.
+</p>
 
-- Enable **automated detection of pollution events** and anomalies in high-frequency water quality data.  
-- Provide a **scalable framework** for multi-parameter sensor data ingestion, decomposition, and clustering.  
-- Support **interpretability and domain expert analysis** through visualizations, including PCA biplots and cluster overlays.  
+<ul>
+<li>Enable <b>automated detection of pollution events</b> and anomalies in high-frequency water quality data.</li>
+<li>Provide a <b>scalable framework</b> for multi-parameter sensor data ingestion, decomposition, and clustering.</li>
+<li>Support <b>interpretability and domain expert analysis</b> through visualizations, including PCA biplots and cluster overlays.</li>
+</ul>
 
-**Challenges:**  
-The high-frequency, multi-parameter nature of river water quality data makes manual review **impractical**.  
-Complex temporal patterns, seasonal variations, and multivariate interactions make **anomaly detection difficult**.  
-Automated, robust methods are **needed** to extract actionable insights and support regulatory compliance efficiently.
+<p align="justify">
+<b>Challenges:</b><br>
+The high-frequency, multi-parameter nature of river water quality data makes manual review <b>impractical</b>. Complex temporal patterns, seasonal variations, and multivariate interactions make <b>anomaly detection difficult</b>. Automated, robust methods are <b>needed</b> to extract actionable insights and support regulatory compliance efficiently.
+</p>
 
-**Prior Work & Improvement:**  
-Previous research focused on single-parameter or low-frequency datasets, often missing multivariate patterns and temporal trends.  
-This work provides an **end-to-end multi-parameter framework** with robust pipelines using **MSTL decomposition, Butterworth filtering, harmonic regression, Isolation Forest, and KMeans clustering** to detect complex anomalies.
+<p align="justify">
+<b>Prior Work & Improvement:</b><br>
+Previous research focused on single-parameter or low-frequency datasets, often missing multivariate patterns and temporal trends. This work provides an <b>end-to-end multi-parameter framework</b> with robust pipelines using <b>MSTL decomposition, Butterworth filtering, harmonic regression, Isolation Forest, and KMeans clustering</b> to detect complex anomalies.
+</p>
 
-**Advantages:**  
-The framework enables **automated, high-frequency anomaly detection** and clustering across multiple water quality parameters.  
-It provides **interpretable outputs and visualizations** to support timely decision-making and expert analysis.
+<p align="justify">
+<b>Advantages:</b><br>
+The framework enables <b>automated, high-frequency anomaly detection</b> and clustering across multiple water quality parameters. It provides <b>interpretable outputs and visualizations</b> to support timely decision-making and expert analysis.
+</p>
 
-**Justification:**  
-Regulatory requirements and high-frequency multivariate data make manual review impractical.  
-Our approach combines **statistical decomposition, unsupervised learning, and visual analytics**, providing a **scalable, robust, and interpretable solution** that previous methods cannot achieve.
+<p align="justify">
+<b>Justification:</b><br>
+Regulatory requirements and high-frequency multivariate data make manual review impractical. Our approach combines <b>statistical decomposition, unsupervised learning, and visual analytics</b>, providing a <b>scalable, robust, and interpretable solution</b> that previous methods cannot achieve.
+</p>
+
 
 
 ## 1. Introduction

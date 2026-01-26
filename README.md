@@ -1,28 +1,40 @@
 # Open Multiparameter Anomaly Detection Model
 
-This repository provides an end-to-end (E2E) framework for anomaly detection and clustering in high-frequency water quality monitoring data, specifically designed for Section 82 compliance under the Environment Act 2021 in England.
+This repository provides an end-to-end (E2E) framework for anomaly detection and clustering in high-frequency water quality monitoring data. The framework is designed to support Section 82 compliance under the Environment Act 2021 (England) by enabling continuous analysis of multi-parameter sensor data streams.
 
 ## 1. Introduction
-Continuous monitoring of receiving water quality by sewerage undertakers upstream and downstream of their assets is mandated under Section 82 of the Environment Act 2021. Robust methods are required to:
+Under Section 82 of the Environment Act 2021, sewerage undertakers are required to continuously monitor receiving water quality upstream and downstream of their assets. Meeting this requirement necessitates robust analytical methods that can:
 
-Analyze high-frequency monitoring data (typically 15-min to 1-hour intervals)
+Analyse high-frequency sensor data (typically 15-minute to 1-hour intervals)
 
-Detect anomalies and pollution events
+Detect anomalous behaviour and potential pollution events
 
-Support operational and regulatory decision-making
+Support operational response and regulatory reporting
 
-This framework integrates historical and real-time multi-parameter sensor data through a complete pipeline: data ingestion → preprocessing → decomposition → anomaly detection → clustering → visualization.
+This framework integrates historical and real-time multi-parameter sensor data into a complete analytical pipeline:
 
+Data ingestion → preprocessing → decomposition → anomaly detection → clustering → visualization
 
+The pipeline is designed to operate incrementally, making it suitable for real-time deployment while remaining transparent and interpretable for regulatory and operational use.
 
-> [!IMPORTANT]
-> Your use of such third-party materials is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use. These datasets may be governed by separate terms and conditions or license provisions. 
+[!IMPORTANT]
+Use of third-party datasets or materials is subject to their respective terms and conditions. Users are responsible for ensuring compliance with any applicable licenses or usage restrictions.
 
 
 ## 2. Motivation
-In response to the worsening state of UK rivers, the government is prioritising early pollution detection and real-time monitoring through the Environment Act 2021. While modern sensor networks generate vast, high frequency data, interpreting these at scale remains a significant challenge. Traditional methods rely on timely manual review processes and often fail to distinguish between natural variations, pollution events or sensor faults. This leads to costly equipment damage, failing to meet regulatory compliance and more importantly reduced ability to mitigate impact of pollution events.
- 
-To address this challenge, we have built a model for automatically detect, classify and validate diverse water quality events in real-time. 
+The ecological status of UK rivers has declined significantly in recent years, prompting increased regulatory emphasis on early pollution detection and real-time monitoring. While modern sensor networks generate large volumes of high-frequency data, extracting actionable insight from these data streams remains challenging.
+
+Traditional approaches often rely on:
+
+Manual inspection of time series
+
+Static threshold-based rules
+
+Retrospective (offline) analysis
+
+These methods struggle to distinguish between natural variability, sensor faults, and genuine pollution events, leading to delayed response, unnecessary operational costs, equipment damage, and regulatory non-compliance.
+
+To address these limitations, this project develops an automated framework capable of detecting, grouping, and supporting interpretation of diverse water quality anomalies in near real time, while retaining transparency for expert review.
 
 ## 3. Project Overview
 <p><i>River Deep Mountain AI is an innovation project funded by the Ofwat Innovation Fund working collaboratively to develop open-source AI/ML models that can inform effective actions to tackle waterbody pollution. 

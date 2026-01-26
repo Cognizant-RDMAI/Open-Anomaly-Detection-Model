@@ -96,93 +96,20 @@ This process ask users to ingest the data in desired format, processes it, apply
    - Approximate runtime: **5 minutes** on an M1 Mac.
 
 
-
-
-
-
 ### Directory Structure
-    OpenRealTimeClassificationModel/
-    ├── README.md                 # Project overview and usage instructions
-    ├── MultiparameterAnomalyDetectionModel.ipynb        # Model for multi parameter
-    ├── infer_periods.ipynb       
-    ├── MODEL_CARD.md             # Model details (empty at the moment)
-    ├── INSTALL.md                # Step-by-step installation instructions
-    ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)
-    ├── CHANGELOG.md              # List of changes and improvements made to the project
-    ├── requirements.txt          #python libraries required 
-    └── LICENSE                   # Licensing information and usage rights
-
-### Clone the repository
- 
-First, clone this project to your local machine or cloud environment
-```https://github.com/Cognizant-RDMAI/OpenRealTimeClassificationModel```
-This will download all project files including the model scripts
- 
-### Create a Python Virtual Environment (Optional but Recommended)
- 
-Using a virtual environment avoids conflicts with other Python packages on your system
-```
-python3 -m venv venv
-source venv/bin/activate    #macOS/Linux
-venv/Scripts/Activate       #Windows
-```
-This creates an isolated environment where all dependencies will be installed.
-
-### Install Dependencies
- 
-All required Python packages are listed in the ```requirements.txt``` file. To install them:
-```
-pip install -r requirements.txt
-```
-This includes:
-- matplotlib
-- pandas
-- numPy: Array and math operations
-- animate
-
-### Ingest Real Time Data and Run E2E pipeline
-Input data should be either API callable via JSON or in the form of CSV:
-```
-datasets/
-└── multiParameter/
-    └── <your_folder>/
-        ├── input
-        └── ...
-```
+      OpenRealAnomalynModel/
+      ├── README.md
+      ├── MODEL_CARD.md
+      ├── INSTALL.md
+      ├── CONTRIBUTING.md
+      ├── CHANGELOG.md
+      ├── requirements.txt
+      ├── LICENSE
+      └── notebooks/
+          ├── OpenAnomalyModel.ipynb
+          └── infer_periods.ipynb
 
 
-### Running the Model
-Input multi parameter data stream could be obtain from JSON. Use the ```multiParameter.py``` to run the full pipeline.
-
-### Planned Improvements
-
-
-
-
-### Summary of data exploration:
-
-A range of selected parameters were chosen that fall under Section 82 regulations such as 
-- pH,
-- Dissolved Oxygen,
-- Turbidity,
-- Ammonium,
-- Temperature
-- Electrical Conductivity,
-
-> [!NOTE]
-> Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
-
-
-### Identifying the anomalies
-
-- The model identifies the anomolies in real-time and point the red dot over the anomly.
-- Anomolies were directly exported to CSV file in binary format (0,1)
-- Commonly detects sudden changes and variations in the time-series data
-
-
-## 7. Links to datasets and dependencies 
-
-Some of the multiparameter dataset can be obtained from hydrology data from EA i.e [EA](https://environment.data.gov.uk/hydrology/explore). The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
 
 # Disclaimer 
 

@@ -4,7 +4,7 @@
 ## Motivation, Purpose, Challenges, and Justification
 
 <p align="justify">
-Continuous monitoring of river water quality under <b>Section 82 of the Environment Act 2021</b> generates very high-frequency multi-parameter data that cannot be reviewed manually. To extract maximum value from these monitoring programs, there is a clear need for <b>robust, automated methods</b> for anomaly detection and event analysis.
+Continuous monitoring of river water quality under <b>Section 82 of the Environment Act 2021</b> generates very high-frequency multi-parameter data that cannot be reviewed manually. To extract maximum value from these monitoring programs, there is a clear need for <b>robust, automated methods</b> for anomaly detection, including.
 </p>
 
 <ul>

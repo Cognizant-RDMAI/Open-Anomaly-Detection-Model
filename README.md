@@ -133,22 +133,6 @@ datasets/
 Input multi parameter data stream could be obtain from JSON. Use the ```multiParameter.py``` to run the full pipeline.
 
 ### Planned Improvements
-_Real-Time Event Classification planned_
-
-- Dry weather sewage spills
-- Dry weather agricultural pollution
-- Runoff: pollution (there is a significant input of organic matter that produces a negative impact despite dilution effects)
-- Runoff: dilution (changes associated with high rainfall – but no negative impact discernible from sensor data)  
-
-
-```Decomposition and correlation metrix.ipynb```: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open ```Decomposition and correlation metrix.ipynb``` in VertaxAI, which gives an example of loading data and computing diverse components of a time series using ```prophet```. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
-
-<br>
-<div align="center">
-  <img width = "40%" src="https://github.com/user-attachments/assets/5f2dab38-9227-49a2-8386-53033489cf0d"><br>
-  <figcaption>Decomposition of pH</figcaption>
-</div>
-<br>
 
 
 

@@ -1,4 +1,4 @@
-# Open Multiparameter Anomaly Detection Model
+# Open Anomaly Detection Model
 ---
 
 ## Motivation, Purpose, Challenges, and Justification
@@ -55,7 +55,11 @@ The project is further supported by **6 water companies** across the **United Ki
 - Upstream and Downstream Data Analysis
 - Automated Event Classification
 
-## 5. Installation instructions including requirements
+## Report
+Open Anomal Detection Model Report is available [here](https://python-poetry.org/docs/#installation)
+
+
+## Installation instructions including requirements
 ### Project Setup Guide
 
 This guide walks you through setting up the **OpenMultiparameterAnomalyDetectionModel** project in your local or cloud environment.
@@ -70,35 +74,21 @@ cd Open-Multiparameter-Anomaly-Detection-Model
 
 This will download the project into a new folder named Open-Multiparameter-Anomaly-Detection-Model and navigate you into it.
 
-### 2. Install Poetry
-
-This project uses **Poetry** for dependency management. You can install it by following the official instructions here: [Poetry Installation Guide](https://python-poetry.org/docs/#installation)
 
 
-> [!NOTE]
-> This repository is shared for transparency and reproducibility. Code contributions are not accepted at this time.
-
-### 3. Install Project Dependencies
-Navigate to the project's root directory and run the following command to install the required packages:
-
-```
-poetry install
-```
-This will create a virtual environment and install all the dependencies listed in the pyproject.toml file.
-
-### 3. Prepare Data and Run Inference Example
+### 2. Prepare Data and Run Inference Example
 
 To prepare the data and run an example, execute the sequence of notebooks located in the `notebooks/` directory.  
 This process ask users to ingest the data in desired format, processes it, apply unsupervised ML model, and deliver the .CSV fileswith cluster IDs. 
 
-1. **Run `01-DataDownload.ipynb`**  
-   - Downloads the **CAMELS-GB dataset** and extracts it to `datasets/camels-gb/data`.  
-   - Approximate runtime: **5 minutes** on an M1 Mac.
-
+**Run `OpenAnomalyModel.ipynb`**  
+   - Install the dependencies.
+   - Ingest the data as specified format.
+   - Approximate runtime: **1 minutes** on an M1 Mac.
 
 ### Directory Structure
       OpenRealAnomalynModel/
-      ├── README.md
+      ├── README.md 
       ├── MODEL_CARD.md
       ├── INSTALL.md
       ├── CONTRIBUTING.md
@@ -114,7 +104,6 @@ This process ask users to ingest the data in desired format, processes it, apply
 # Disclaimer 
 
 River Deep Mountain AI (“RDMAI”) consists of **10 parties**. The parties currently participating in RDMAI are listed at the end of this section and are collectively referred to in these terms as the **“consortium”**.
-
 This section provides additional context and usage guidance specific to the artificial intelligence models and/or software (the **“Software”**) distributed under the **MIT License**. It **does not modify or override the terms of the MIT License**. In the event of any conflict between this section and the terms of the MIT License, the **MIT License terms shall take precedence**.
 
 ---

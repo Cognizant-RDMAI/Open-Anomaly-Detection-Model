@@ -162,6 +162,62 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 
 Some of the multiparameter dataset can be obtained from hydrology data from EA i.e [EA](https://environment.data.gov.uk/hydrology/explore). The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
 
+# Disclaimer 
+
+River Deep Mountain AI (“RDMAI”) consists of **10 parties**. The parties currently participating in RDMAI are listed at the end of this section and are collectively referred to in these terms as the **“consortium”**.
+
+This section provides additional context and usage guidance specific to the artificial intelligence models and/or software (the **“Software”**) distributed under the **MIT License**. It **does not modify or override the terms of the MIT License**. In the event of any conflict between this section and the terms of the MIT License, the **MIT License terms shall take precedence**.
+
+---
+
+## 1. Research and Development Status
+
+The Software has been created as part of a **research and development project** and reflects a **point-in-time snapshot** of an evolving project. It is provided **without any warranty, representation, or commitment** of any kind, including with regards to:  
+- Title  
+- Non-infringement  
+- Accuracy  
+- Completeness  
+- Performance  
+
+The Software is for **information purposes only** and it is **not**:  
+1. Intended for **production use** unless the user **accepts full liability** for its use and independently validates that the Software is appropriate for its intended purpose.  
+2. Intended to be the **basis of making any decision** without independent validation.  
+
+No party, including any member of the development consortium, is obligated to provide **updates, maintenance, or support** in relation to the Software and/or any associated documentation.
+
+
+2. **Software Knowledge Cutoff**  
+The Software was trained on publicly available data up to **September 2015**. It may not reflect current scientific understanding, environmental conditions, or regulatory standards. Users are solely responsible for verifying the accuracy, timeliness, and applicability of any outputs.
+
+3. **Experimental and Generative Nature**  
+The Software may exhibit limitations, including but not limited to:  
+  - Inaccurate, incomplete, or misleading outputs  
+  - Embedded biases and/or assumptions in training data  
+  - Non-deterministic and/or unexpected behaviour  
+  - Limited transparency in model logic or decision-making  
+
+Users must **critically evaluate and independently validate** all outputs and exercise independent scientific, legal, and technical judgment when using the Software and/or any outputs. The Software is **not a substitute** for professional expertise and/or regulatory compliance.
+
+
+
+
+
+
+4. **Usage Considerations**
+
+- **Bias and Fairness:**  
+  The Software may reflect biases present in its training data. Users are responsible for identifying and mitigating such biases in their applications.
+
+- **Ethical and Lawful Use:**  
+  The Software is intended solely for lawful, ethical, and development purposes. It must not be used in any way that could result in harm to individuals, communities, and/or the environment, or in any way that violates applicable laws and/or regulations.
+
+- **Data Privacy:**  
+  The Software was trained on publicly available datasets. Users must ensure compliance with all applicable data privacy laws and licensing terms when using the Software in any way.
+
+- **Environmental and Regulatory Risk:**  
+  Users are **not permitted** to use the Software for environmental monitoring, regulatory reporting, or decision making in relation to public health, public policy, and/or commercial matters. Any such use is in violation of these terms and undertaken entirely at the user’s **sole risk and discretion**.
+
+
 
 
 ## 5. No Liability

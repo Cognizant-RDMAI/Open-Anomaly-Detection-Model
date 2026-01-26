@@ -61,11 +61,12 @@ The project is further supported by **6 water companies** across the **United Ki
 This guide walks you through setting up the **OpenMultiparameterAnomalyDetectionModel** project in your local or cloud environment.
 ### 1. Clone the Repository
 
-First, you need to clone this repository to your local machine. If you are new to Git, you can do this by opening a terminal and running the following commands:
+First, you need to clone this repository to your local machine. If you are new to Git, open a terminal and run the following commands:
 
 ```bash
 git clone https://github.com/Cognizant-RDMAI/Open-Multiparameter-Anomaly-Detection-Model.git
-cd Open-Flow-Model
+cd Open-Multiparameter-Anomaly-Detection-Model
+
 
 This will download the project into a new folder named Open-Multiparameter-Anomaly-Detection-Model and navigate you into it.
 

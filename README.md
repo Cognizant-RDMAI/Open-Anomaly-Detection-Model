@@ -63,7 +63,7 @@ This guide walks you through setting up the **OpenMultiparameterAnomalyDetection
 
 First, you need to clone this repository to your local machine. If you are new to Git, open a terminal and run the following commands:
 
-```bash
+
 git clone https://github.com/Cognizant-RDMAI/Open-Multiparameter-Anomaly-Detection-Model.git
 cd Open-Multiparameter-Anomaly-Detection-Model
 
@@ -75,8 +75,6 @@ This will download the project into a new folder named Open-Multiparameter-Anoma
 This project uses **Poetry** for dependency management. You can install it by following the official instructions here:  
 
 [Poetry Installation Guide](https://python-poetry.org/docs/#installation)
-
-
 
 
 > [!NOTE]

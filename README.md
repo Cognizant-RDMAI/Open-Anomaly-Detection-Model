@@ -167,7 +167,7 @@ Users must **critically evaluate and independently validate** all outputs and ex
 
 
 
-## 5. No Liability
+## 2. No Liability
 - **The Software is not permitted for use** in environmental monitoring, regulatory compliance, or decision making in relation to public health, public policy, and/or commercial matters.
 
 - **Any use of the Software in such contexts** is in violation of these terms and undertaken entirely at the user’s own risk.
@@ -193,7 +193,7 @@ Users must **critically evaluate and independently validate** all outputs and ex
 Users assume full responsibility for their use of the Software, validating the Software’s outputs and for any decisions and / or actions taken based on their use of the Software and / or its outputs.
 
 
-## 8. Consortium Members
+## 3. Consortium Members
 - Northumbrian Water Limited
 - Cognizant Worldwide Limited
 - Xylem Water Solutions UK Limited
@@ -207,7 +207,7 @@ Users assume full responsibility for their use of the Software, validating the S
 
 
 
-## 8. Citation details for research papers
+## 4. Citation details for research papers
 - Bhatia, S., Jain, A., Li, P., Kumar, R., & Hooi, B. (2021, April). Mstream: Fast anomaly detection in multi-aspect streams. In Proceedings of the Web Conference 2021 (pp. 3371-3382).
 - Hall, J., Zaffiro, A. D., Marx, R. B., Kefauver, P. C., Krishnan, E. R., Haught, R. C., & Herrmann, J. G. (2007). On–Line water quality parameters as indicators of distribution system contamination. Journal‐American Water Works Association, 99(1), 66-77.
 - Von Sperling, M. (2007). Wastewater characteristics, treatment and disposal. IWA publishing. 

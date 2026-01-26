@@ -63,24 +63,42 @@ This guide walks you through setting up the **OpenMultiparameterAnomalyDetection
 
 First, you need to clone this repository to your local machine. If you are new to Git, open a terminal and run the following commands:
 
-
+```
 git clone https://github.com/Cognizant-RDMAI/Open-Multiparameter-Anomaly-Detection-Model.git
 cd Open-Multiparameter-Anomaly-Detection-Model
-
+```
 
 This will download the project into a new folder named Open-Multiparameter-Anomaly-Detection-Model and navigate you into it.
 
 ### 2. Install Poetry
 
-This project uses **Poetry** for dependency management. You can install it by following the official instructions here:  
+This project uses **Poetry** for dependency management. You can install it by following the official instructions here: [Poetry Installation Guide](https://python-poetry.org/docs/#installation)
 
-```
-[Poetry Installation Guide](https://python-poetry.org/docs/#installation)
-```
 
 > [!NOTE]
 > This repository is shared for transparency and reproducibility. Code contributions are not accepted at this time.
- 
+
+### 3. Install Project Dependencies
+Navigate to the project's root directory and run the following command to install the required packages:
+
+```
+poetry install
+```
+This will create a virtual environment and install all the dependencies listed in the pyproject.toml file.
+
+### 3. Prepare Data and Run Inference Example
+
+To prepare the data and run an example, execute the sequence of notebooks located in the `notebooks/` directory.  
+This process ask users to ingest the data in desired format, processes it, apply unsupervised ML model, and deliver the .CSV fileswith cluster IDs. 
+
+1. **Run `01-DataDownload.ipynb`**  
+   - Downloads the **CAMELS-GB dataset** and extracts it to `datasets/camels-gb/data`.  
+   - Approximate runtime: **5 minutes** on an M1 Mac.
+
+
+
+
+
 
 ### Directory Structure
     OpenRealTimeClassificationModel/

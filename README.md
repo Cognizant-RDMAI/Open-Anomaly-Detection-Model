@@ -191,16 +191,16 @@ Users assume full responsibility for their use of the Software, validating the S
 
 
 ## 8. Consortium Members
-Northumbrian Water Limited
-Cognizant Worldwide Limited
-Xylem Water Solutions UK Limited
-Water Research Centre Limited
-RSK ADAS Limited
-The Rivers Trust
-Wessex Water Limited
-Northern Ireland Water
-Southwest Water Limited
-Anglian Water Services Limited
+- Northumbrian Water Limited
+- Cognizant Worldwide Limited
+- Xylem Water Solutions UK Limited
+- Water Research Centre Limited
+- RSK ADAS Limited
+- The Rivers Trust
+- Wessex Water Limited
+- Northern Ireland Water
+- Southwest Water Limited
+- Anglian Water Services Limited
 
 
 

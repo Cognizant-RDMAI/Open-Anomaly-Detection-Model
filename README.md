@@ -1,8 +1,7 @@
 # Open Multiparameter Anomaly Detection Model
 ---
-## Motivation and Purpose
 
-## Motivation, Purpose, and Challenges
+## Motivation, Purpose, Challenges, and Justification
 
 Continuous monitoring of river water quality under **Section 82 of the Environment Act 2021** generates very high-frequency multi-parameter data that cannot be reviewed manually.  
 To extract maximum value from these monitoring programs, there is a clear need for **robust, automated methods** for anomaly detection and event analysis.  
@@ -11,23 +10,23 @@ To extract maximum value from these monitoring programs, there is a clear need f
 - Provide a **scalable framework** for multi-parameter sensor data ingestion, decomposition, and clustering.  
 - Support **interpretability and domain expert analysis** through visualizations, including PCA biplots and cluster overlays.  
 
-**Challenges and Need:**  
+**Challenges:**  
 The high-frequency, multi-parameter nature of river water quality data makes manual review **impractical**.  
 Complex temporal patterns, seasonal variations, and multivariate interactions make **anomaly detection difficult**.  
 Automated, robust methods are **needed** to extract actionable insights and support regulatory compliance efficiently.
 
-Previous research has focused on single-parameter or low-frequency datasets, often missing multivariate patterns and temporal trends.  
-This work improves on existing methods by providing an **end-to-end multi-parameter framework** with **robust pipelines** for anomaly detection.  
-We combine **MSTL decomposition, Butterworth filtering, harmonic regression, Isolation Forest, and KMeans clustering** to detect complex anomalies across multiple water quality parameters.
+**Prior Work & Improvement:**  
+Previous research focused on single-parameter or low-frequency datasets, often missing multivariate patterns and temporal trends.  
+This work provides an **end-to-end multi-parameter framework** with robust pipelines using **MSTL decomposition, Butterworth filtering, harmonic regression, Isolation Forest, and KMeans clustering** to detect complex anomalies.
 
 **Advantages:**  
 The framework enables **automated, high-frequency anomaly detection** and clustering across multiple water quality parameters.  
 It provides **interpretable outputs and visualizations** to support timely decision-making and expert analysis.
 
+**Justification:**  
+Regulatory requirements and high-frequency multivariate data make manual review impractical.  
+Our approach combines **statistical decomposition, unsupervised learning, and visual analytics**, providing a **scalable, robust, and interpretable solution** that previous methods cannot achieve.
 
-
-
-This repository provides an end-to-end (E2E) framework for anomaly detection and clustering in high-frequency water quality monitoring data. The framework is designed to support Section 82 compliance under the Environment Act 2021 (England) by enabling continuous analysis of multi-parameter sensor data streams.
 
 ## 1. Introduction
 Under Section 82 of the Environment Act 2021, sewerage undertakers are required to continuously monitor receiving water quality upstream and downstream of their assets. Meeting this requirement necessitates robust analytical methods that can:

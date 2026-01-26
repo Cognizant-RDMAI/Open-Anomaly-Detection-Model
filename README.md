@@ -75,7 +75,7 @@ This will download the project into a new folder named Open-Multiparameter-Anoma
 This project uses **Poetry** for dependency management. You can install it by following the official instructions here:  
 
 [Poetry Installation Guide](https://python-poetry.org/docs/#installation)
->
+
 
 
 

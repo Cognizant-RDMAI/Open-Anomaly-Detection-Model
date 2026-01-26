@@ -140,28 +140,6 @@ _Real-Time Event Classification planned_
 - Runoff: pollution (there is a significant input of organic matter that produces a negative impact despite dilution effects)
 - Runoff: dilution (changes associated with high rainfall – but no negative impact discernible from sensor data)  
 
-## 6. Example usage (e.g., Jupyter notebooks) 
-This package provides three pretrained models:
-
-```singleParameter.py```: a single-parameter anomaly detection model, was tested over time series observations of Turbidity data from 2016 to 2018. This model can be causally evaluated on any online real-time data from data streams, where data can be ingested via any API, JSON, or online evolving CSV. The following image illustrates real-time anomaly detection in a turbidity dataset. The approach leverages the Interquartile Range (IQR) method to identify anomalies as data streams in, updating the detection algorithm on the fly. However, a key limitation of this method is its reduced sensitivity to long-term pollution trends.
-
-<br>
-<div align="center">
-  <img width = "40%" src="https://github.com/user-attachments/assets/651ba1d3-0108-4078-86cd-7b6d9edfab94"><br>
-  <figcaption>Real Time Anomaly Detection for Turbidity</figcaption>
-</div><br>
-
-
-```multiParameter.py```: a multi-parameter anomaly detection model, was tested over time series observations of Section 82 parameters along with electrical conductivity. This model can be causally evaluated on any online multi-parameter real-time sensor data from data streams, where data can be ingested via any API, JSON, or online evolving CSV.
-
-<br>
-<div align="center">
-  <img width = "40%" src="https://github.com/user-attachments/assets/ffb96b6f-a468-44d0-b380-6de928b993ee"><br>
-  <figcaption>Real Time Anomaly Detection in a Multiparameter Data Stream</figcaption>
-</div>
-<br>
-
-
 
 ```Decomposition and correlation metrix.ipynb```: A model that ingests a single parameter time series and decomposes it in order to identify the trends, seasonality, and patterns.  The best starting point is to open ```Decomposition and correlation metrix.ipynb``` in VertaxAI, which gives an example of loading data and computing diverse components of a time series using ```prophet```. Incorporating time series decomposition can enhance performance by capturing underlying trends and seasonal patterns that IQR alone may miss.
 
@@ -187,34 +165,6 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 
 > [!NOTE]
 > Although, Electrical Conductivity is not the Section 82 parameter. It was prioritized in this framework as it typically responds the fastest during unexpected events, making it a reliable early indicator for anomaly detection.
-
-
-### Water Quality Parameters and Respective Thresholds as per EPA
-We also relies over the thersholds as defined by environmental agency guidelines.
-
-| Parameter                  | Threshold (μ̄)     |
-|---------------------------|--------------------|
-| pH                        | 6.5 – 8.5          |
-| Dissolved Oxygen (DO)     | ≥ 5 mg/L           |
-| Turbidity                 | ≤ 5 NTU            |
-| Electrical Conductivity   | ≤ 1500 µS/cm       |
-| Temperature               | ≤ 35°C             |
-| Ammonia (as NH₃)          | ≤ 0.5 mg/L         |
-
-
-### Custom Data Collection
-_Number of identified locations:_
-- **England** - 8
-
-
-### Training
-- Unlike offline Machine Learning models, this model trains and ingest the sequentially and learn from it. 
-
-
-
-> [!TIP]
-> You do not need to perform manual labeling. The model is designed such as to capture the anomolies autonomously.
-> You need to adjust the normalization in order to fit the chart over scale. This is user dependent.
 
 
 ### Identifying the anomalies

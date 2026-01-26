@@ -163,6 +163,37 @@ A range of selected parameters were chosen that fall under Section 82 regulation
 Some of the multiparameter dataset can be obtained from hydrology data from EA i.e [EA](https://environment.data.gov.uk/hydrology/explore). The model is developed using Python and related dependencies. To run the model, you must install the valid libraries i.e [pandas](https://www.google.com), [matplotlib](https://matplotlib.org/), [prophet](https://facebook.github.io/prophet/), and [animation](https://matplotlib.org/stable/users/explain/animations/animations.html). 
 
 
+
+## 5. No Liability
+This section is intended to clarify, and not to limit or modify, the disclaimer of warranties and limitation of liability already provided under the MIT License.
+
+To the extent permitted by applicable law, users acknowledge and agree that:
+
+- The Software is not permitted for use in environmental monitoring, regulatory compliance, or decision making in relation to public health, public policy and / or commercial matters.
+- Any use of the Software in such contexts is in violation of these terms and undertaken entirely at the user’s own risk.
+- The development consortium and all consortium members, contributors and their affiliates expressly disclaim any responsibility or liability for any use of the Software including (but not limited to):
+  --Environmental, ecological, public health, public policy or commercial outcomes
+-- Regulatory and / or legal compliance failures
+-- Misinterpretation, misuse, or reliance on the Software’s outputs
+-- Any direct, indirect, incidental, or consequential damages arising from use of the Software including (but not limited to) any (1) loss of profit, (2) loss of use, (3) loss of income, (4) loss of production or accruals, (5) loss of anticipated savings, (6) loss of business or contracts, (7) loss or depletion of goodwill, (8) loss of goods, (9) loss or corruption of data, information, or software, (10) pure economic loss, or (11) wasted expenditure resulting from use of the Software —whether arising in contract, tort, or otherwise, even if foreseeable .
+
+Users assume full responsibility for their use of the Software, validating the Software’s outputs and for any decisions and / or actions taken based on their use of the Software and / or its outputs.
+
+
+## 8. Consortium Members
+Northumbrian Water Limited
+Cognizant Worldwide Limited
+Xylem Water Solutions UK Limited
+Water Research Centre Limited
+RSK ADAS Limited
+The Rivers Trust
+Wessex Water Limited
+Northern Ireland Water
+Southwest Water Limited
+Anglian Water Services Limited
+
+
+
 ## 8. Citation details for research papers
 - Bhatia, S., Jain, A., Li, P., Kumar, R., & Hooi, B. (2021, April). Mstream: Fast anomaly detection in multi-aspect streams. In Proceedings of the Web Conference 2021 (pp. 3371-3382).
 - Hall, J., Zaffiro, A. D., Marx, R. B., Kefauver, P. C., Krishnan, E. R., Haught, R. C., & Herrmann, J. G. (2007). On–Line water quality parameters as indicators of distribution system contamination. Journal‐American Water Works Association, 99(1), 66-77.

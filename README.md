@@ -165,17 +165,27 @@ Some of the multiparameter dataset can be obtained from hydrology data from EA i
 
 
 ## 5. No Liability
-This section is intended to clarify, and not to limit or modify, the disclaimer of warranties and limitation of liability already provided under the MIT License.
+- **The Software is not permitted for use** in environmental monitoring, regulatory compliance, or decision making in relation to public health, public policy, and/or commercial matters.
 
-To the extent permitted by applicable law, users acknowledge and agree that:
+- **Any use of the Software in such contexts** is in violation of these terms and undertaken entirely at the user’s own risk.
 
-- The Software is not permitted for use in environmental monitoring, regulatory compliance, or decision making in relation to public health, public policy and / or commercial matters.
-- Any use of the Software in such contexts is in violation of these terms and undertaken entirely at the user’s own risk.
-- The development consortium and all consortium members, contributors and their affiliates expressly disclaim any responsibility or liability for any use of the Software including (but not limited to):
--  Environmental, ecological, public health, public policy or commercial outcomes
--  Regulatory and / or legal compliance failures
--  Misinterpretation, misuse, or reliance on the Software’s outputs
--  Any direct, indirect, incidental, or consequential damages arising from use of the Software including (but not limited to) any (1) loss of profit, (2) loss of use, (3) loss of income, (4) loss of production or accruals, (5) loss of anticipated savings, (6) loss of business or contracts, (7) loss or depletion of goodwill, (8) loss of goods, (9) loss or corruption of data, information, or software, (10) pure economic loss, or (11) wasted expenditure resulting from use of the Software —whether arising in contract, tort, or otherwise, even if foreseeable .
+- **The development consortium and all consortium members, contributors, and their affiliates expressly disclaim any responsibility or liability** for any use of the Software including (but not limited to):
+  - **Environmental, ecological, public health, public policy, or commercial outcomes**
+  - **Regulatory and/or legal compliance failures**
+  - **Misinterpretation, misuse, or reliance on the Software’s outputs**
+  - **Any direct, indirect, incidental, or consequential damages arising from use of the Software**, including (but not limited to):
+    - Loss of profit
+    - Loss of use
+    - Loss of income
+    - Loss of production or accruals
+    - Loss of anticipated savings
+    - Loss of business or contracts
+    - Loss or depletion of goodwill
+    - Loss of goods
+    - Loss or corruption of data, information, or software
+    - Pure economic loss
+    - Wasted expenditure resulting from use of the Software — whether arising in contract, tort, or otherwise, even if foreseeable
+
 
 Users assume full responsibility for their use of the Software, validating the Software’s outputs and for any decisions and / or actions taken based on their use of the Software and / or its outputs.
 

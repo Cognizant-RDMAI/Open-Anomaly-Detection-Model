@@ -213,9 +213,3 @@ Users assume full responsibility for their use of the Software, validating the S
 - Von Sperling, M. (2007). Wastewater characteristics, treatment and disposal. IWA publishing. 
 
 
-## 9. Disclaimer 
-Open Real Time Classification Model is an experimental research work developed as part of River Deep Mountain AI. You are fully responsible for assessing whether its use or distribution is appropriate for your needs. Any risks associated with using or distributing this model and its outputs are solely yours to assume.
- 
-By utilising Open Real Time Classification Model, you acknowledge and accept the rights and permissions granted under the relevant license. Exercise caution when relying on, publishing, downloading, or otherwise using Open Real Time Classification Model  or any generated outputs.
-
-

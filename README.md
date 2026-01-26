@@ -63,7 +63,7 @@ Open Anomal Detection Model Report is available [here](https://python-poetry.org
 ### Project Setup Guide
 
 This guide walks you through setting up the **OpenMultiparameterAnomalyDetectionModel** project in your local or cloud environment.
-### 1. Clone the Repository
+### Clone the Repository
 
 First, you need to clone this repository to your local machine. If you are new to Git, open a terminal and run the following commands:
 

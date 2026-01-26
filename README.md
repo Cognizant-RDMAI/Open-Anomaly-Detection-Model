@@ -78,7 +78,17 @@ This will download the project into a new folder named Open-Multiparameter-Anoma
 
 ### Water Quality Data Pipeline
 
-The `load_and_prepare_data` function ingests and cleans Section 82 water quality data. It aligns six key variables (`do`, `ph`, `turb`, `amm`, `cond`, `temp`) to a common datetime index, removes duplicates, fills missing values, and produces a clean combined DataFrame ready for analysis. Daily resampling and checks highlight fully missing days and consecutive gaps for review. To prepare the data and run an example, execute the sequence of notebooks located in the `notebooks/` directory.  This process ask users to ingest the data in desired format, processes it, apply unsupervised ML model, and deliver the .CSV fileswith cluster IDs. 
+The `load_and_prepare_data` function ingests and cleans Section 82 water quality data. It aligns six key variables (`do`, `ph`, `turb`, `amm`, `cond`, `temp`) to a common datetime index, removes duplicates, fills missing values, and produces a clean combined DataFrame ready for analysis.
+
+**Key Steps:**
+
+- **Hourly Resampling:** Converts raw data to hourly means for consistent time series analysis.  
+- **Range Selection:** Focuses on a user-defined time frame. Warns if the selected range is less than one year, as short data may affect seasonal and residual decomposition accuracy.  
+- **Missing Data Handling:** Detects fully missing days and groups consecutive missing days for review.  
+- **Optional Interpolation:** Prompts the user to fill missing values. Interpolation is required for MSTL decomposition, ensuring evenly spaced, complete time series so trends, seasonality, and residuals are estimated reliably.
+
+✅ Ensures clean, aligned, and complete data for downstream analysis and MSTL-based seasonal decomposition.
+
 
 **Run `OpenAnomalyModel.ipynb`**  
    - Install the dependencies.

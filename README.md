@@ -133,10 +133,10 @@ The Software is for **information purposes only** and it is **not**:
 No party, including any member of the development consortium, is obligated to provide **updates, maintenance, or support** in relation to the Software and/or any associated documentation.
 
 
-2. **Software Knowledge Cutoff**  
+3. **Software Knowledge Cutoff**  
 The Software was trained on publicly available data up to **September 2015**. It may not reflect current scientific understanding, environmental conditions, or regulatory standards. Users are solely responsible for verifying the accuracy, timeliness, and applicability of any outputs.
 
-3. **Experimental and Generative Nature**  
+4. **Experimental and Generative Nature**  
 The Software may exhibit limitations, including but not limited to:  
   - Inaccurate, incomplete, or misleading outputs  
   - Embedded biases and/or assumptions in training data  
@@ -146,11 +146,7 @@ The Software may exhibit limitations, including but not limited to:
 Users must **critically evaluate and independently validate** all outputs and exercise independent scientific, legal, and technical judgment when using the Software and/or any outputs. The Software is **not a substitute** for professional expertise and/or regulatory compliance.
 
 
-
-
-
-
-4. **Usage Considerations**
+5. **Usage Considerations**
 
 - **Bias and Fairness:**  
   The Software may reflect biases present in its training data. Users are responsible for identifying and mitigating such biases in their applications.
@@ -163,7 +159,6 @@ Users must **critically evaluate and independently validate** all outputs and ex
 
 - **Environmental and Regulatory Risk:**  
   Users are **not permitted** to use the Software for environmental monitoring, regulatory reporting, or decision making in relation to public health, public policy, and/or commercial matters. Any such use is in violation of these terms and undertaken entirely at the user’s **sole risk and discretion**.
-
 
 
 

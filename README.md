@@ -48,66 +48,6 @@ The project consists of **6 core partners**:
 The project is further supported by **6 water companies** across the **United Kingdom and Ireland**.
 
 
-## 1. Introduction
-Under Section 82 of the Environment Act 2021, sewerage undertakers are required to continuously monitor receiving water quality upstream and downstream of their assets. Meeting this requirement necessitates robust analytical methods that can:
-
-Analyse high-frequency sensor data (typically 15-minute to 1-hour intervals)
-
-Detect anomalous behaviour and potential pollution events
-
-Support operational response and regulatory reporting
-
-This framework integrates historical and real-time multi-parameter sensor data into a complete analytical pipeline:
-
-Data ingestion → preprocessing → decomposition → anomaly detection → clustering → visualization
-
-The pipeline is designed to operate incrementally, making it suitable for real-time deployment while remaining transparent and interpretable for regulatory and operational use.
-
-[!IMPORTANT]
-Use of third-party datasets or materials is subject to their respective terms and conditions. Users are responsible for ensuring compliance with any applicable licenses or usage restrictions.
-
-
-## 2. Motivation
-The ecological status of UK rivers has declined significantly in recent years, prompting increased regulatory emphasis on early pollution detection and real-time monitoring. While modern sensor networks generate large volumes of high-frequency data, extracting actionable insight from these data streams remains challenging.
-
-Traditional approaches often rely on:
-
-Manual inspection of time series
-
-Static threshold-based rules
-
-Retrospective (offline) analysis
-
-These methods struggle to distinguish between natural variability, sensor faults, and genuine pollution events, leading to delayed response, unnecessary operational costs, equipment damage, and regulatory non-compliance.
-
-To address these limitations, this project develops an automated framework capable of detecting, grouping, and supporting interpretation of diverse water quality anomalies in near real time, while retaining transparency for expert review.
-
-## 3. Project Overview
-<p><i>River Deep Mountain AI is an innovation project funded by the Ofwat Innovation Fund working collaboratively to develop open-source AI/ML models that can inform effective actions to tackle waterbody pollution. 
- 
-The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xylem Inc, Water Research Centre Limited, The Rivers Trust and ADAS. The project is further supported by 6 water companies across the United Kingdom and Ireland. </i></p>
-
-## 4. Purpose and functionality
-Online models process sensor data in real time, enabling immediate detection of anomalies like chemical spills or microbial contamination—offline models analyze data too late to prevent harm.
-
-- **Decisions making** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
-- **Dynamic system behaviour** — water quality exhibits strong temporal and seasonal variability.
-- **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
-
-The model was designed to work as part of a fully automated End-to-End (E2E) sensor data pipeline. It performs the following core functions:
-- **Anomaly Detection**
-   - Multi parameter
-
--  **Scalability**: Process the data array at a time $t$. Can be expended to include further parameters, however, this may increase computational complexity and lower the speed. The may create synchronisation challenges.
-
-
-
-> [!NOTE]
-> Why was time series decomposition is introduced and its historical values are ingested?
-
-Water quality data exhibit strong trends and seasonality. Decomposition separates observations into trend, seasonal, and residual components, allowing anomalies to be detected relative to expected behaviour rather than raw values alone.
-
-
 ### Possible extensions
 - Real Time Multiparameter Anomaly Detection
 - Sensor Fouling Event Detection
@@ -115,10 +55,9 @@ Water quality data exhibit strong trends and seasonality. Decomposition separate
 - Upstream and Downstream Data Analysis
 - Automated Event Classification
 
-
 ## 5. Installation instructions including requirements
 Installation Guide
-This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
+This guide walks you through setting up the **OpenMultiparameterAnomalyDetectionModel** project in your local or cloud environment.
 
 > [!NOTE]
 > This repository is shared for transparency and reproducibility. Code contributions are not accepted at this time.

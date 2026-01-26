@@ -56,8 +56,25 @@ The project is further supported by **6 water companies** across the **United Ki
 - Automated Event Classification
 
 ## 5. Installation instructions including requirements
-Installation Guide
+### Project Setup Guide
+
 This guide walks you through setting up the **OpenMultiparameterAnomalyDetectionModel** project in your local or cloud environment.
+### 1. Clone the Repository
+
+First, you need to clone this repository to your local machine. If you are new to Git, you can do this by opening a terminal and running the following commands:
+
+```bash
+git clone https://github.com/Cognizant-RDMAI/Open-Multiparameter-Anomaly-Detection-Model.git
+cd Open-Flow-Model
+
+This will download the project into a new folder named Open-Multiparameter-Anomaly-Detection-Model and navigate you into it.
+
+### 2. Install Poetry
+
+This project uses **Poetry** for dependency management. You can install it by following the official instructions here:  
+
+[Poetry Installation Guide](https://python-poetry.org/docs/#installation)
+
 
 > [!NOTE]
 > This repository is shared for transparency and reproducibility. Code contributions are not accepted at this time.

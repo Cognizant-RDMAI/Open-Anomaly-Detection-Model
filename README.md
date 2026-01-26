@@ -44,16 +44,14 @@ The project consists of 6 core partners: Northumbrian Water, Cognizant Ocean, Xy
 ## 4. Purpose and functionality
 Online models process sensor data in real time, enabling immediate detection of anomalies like chemical spills or microbial contamination—offline models analyze data too late to prevent harm.
 
-- **Real-time decisions making** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
-- **Offline models miss dynamic patterns** — water conditions change rapidly, requiring continuous monitoring and adaptive analytics.
+- **Decisions making** — water utilities must respond instantly to diverse unlikely events (e.g pollution) to avoid service disruptions and health risks.
+- **Dynamic system behaviour** — water quality exhibits strong temporal and seasonal variability.
 - **Regulatory and customer expectations demand immediacy** — delays in detection or response can lead to non-compliance, fines, and loss of public trust.
 
-The model was designed to work as part of a fully automated End-to-End (E2E) sensor datastream pipeline. It performs the following core functions:
+The model was designed to work as part of a fully automated End-to-End (E2E) sensor data pipeline. It performs the following core functions:
 - **Anomaly Detection**
-   - Single Parameter
    - Multi parameter
 
--  **Integration**: The model can be integrated with E2E pipeline over any cloud platform. Model process data incrementally, and can be scaled for any number of multi-variate data streams. However, the user needs to adjust the visualisation and normalization accordingly.
 -  **Scalability**: Process the data array at a time $t$. Can be expended to include further parameters, however, this may increase computational complexity and lower the speed. The may create synchronisation challenges.
 
 
@@ -61,15 +59,15 @@ The model was designed to work as part of a fully automated End-to-End (E2E) sen
 > [!NOTE]
 > Why was time series decomposition is introduced and its historical values are ingested?
 
-In general, water sensors generates multivariate time-series data. Time series decomposition separates this time series data into trend, seasonality, and residual components. One can use this information to understand underlying patterns and behaviors in the data.
+Water quality data exhibit strong trends and seasonality. Decomposition separates observations into trend, seasonal, and residual components, allowing anomalies to be detected relative to expected behaviour rather than raw values alone.
 
 
 ### Possible extensions
 - Real Time Multiparameter Anomaly Detection
-- Real Time Sensor Fouling Event Detection
-- Real Time Correlation Analysis
-- Real Time Upstream and Downstream Data Analysis
-- Real Time Event Classification
+- Sensor Fouling Event Detection
+- Correlation Analysis
+- Upstream and Downstream Data Analysis
+- Automated Event Classification
 
 
 ## 5. Installation instructions including requirements
@@ -83,9 +81,8 @@ This guide walks you through setting up the **OpenRealTimeClassificationModel** 
 ### Directory Structure
     OpenRealTimeClassificationModel/
     ├── README.md                 # Project overview and usage instructions
-    ├── MultiParameter.py         # Model for multi parameter
-    ├── SingleParameter.py        # Model for single parameter
-    ├── Decomposition and correlation matrix.ipynb       # Model for time series decomposition for single parameter
+    ├── MultiparameterAnomalyDetectionModel.ipynb        # Model for multi parameter
+    ├── infer_periods.ipynb       
     ├── MODEL_CARD.md             # Model details (empty at the moment)
     ├── INSTALL.md                # Step-by-step installation instructions
     ├── CONTRIBUTING.md           # Contribution guidelines (internal use only)

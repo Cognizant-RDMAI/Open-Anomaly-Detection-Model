@@ -33,22 +33,7 @@ The framework enables <b>automated, high-frequency anomaly detection</b> and clu
 Regulatory requirements and high-frequency multivariate data make manual review impractical. Our approach combines <b>statistical decomposition, unsupervised learning, and visual analytics</b>, providing a <b>scalable, robust, and interpretable solution</b> that previous methods cannot achieve.
 </p>
 
-## Project Details
-
-[River Deep Mountain AI](https://www.cognizant.com/us/en/industries/ocean/rdmai) is an innovation project funded by the **Ofwat Innovation Fund**, working collaboratively to develop **open-source AI/ML models** that can inform effective actions to tackle waterbody pollution.
-
-The project consists of **6 core partners**:  
-- Northumbrian Water  
-- Cognizant Ocean  
-- Xylem Inc  
-- Water Research Centre Limited  
-- The Rivers Trust  
-- ADAS  
-
-The project is further supported by **6 water companies** across the **United Kingdom and Ireland**.
-
-
-### Possible extensions
+## Possible extensions
 - Real Time Multiparameter Anomaly Detection
 - Sensor Fouling Event Detection
 - Correlation Analysis

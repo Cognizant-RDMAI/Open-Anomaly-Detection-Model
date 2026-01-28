@@ -62,7 +62,7 @@ Open Anomal Detection Model Report is available [here](https://python-poetry.org
 ## Installation instructions including requirements
 ### Project Setup Guide
 
-This guide walks you through setting up the **OpenMultiparameterAnomalyDetectionModel** project in your local or cloud environment.
+This guide walks you through setting up the **OpenAnomalyDetectionModel** project in your local or cloud environment.
 ### Clone the Repository
 
 First, you need to clone this repository to your local machine. If you are new to Git, open a terminal and run the following commands:
@@ -90,17 +90,17 @@ The `load_and_prepare_data` function ingests and cleans Section 82 water quality
 ✅ Ensures clean, aligned, and complete data for downstream analysis and MSTL-based seasonal decomposition.
 
 
-**Run `OpenAnomalyModel.ipynb`**  
+**Run `OpenAnomalyDetectionModel.ipynb`**  
    - Install the dependencies.
    - Ingest the data as specified format.
    - Approximate runtime: **1 minutes** on an M1 Mac.
 
 ### Directory Structure
    ```bash
-   Open-Multiparameter-Anomaly-Detection-Model/
+   Open-Anomaly-Detection-Model/
    │
    ├── notebooks/
-   │   ├── OpenAnomalyModel.ipynb        # Main notebook / pipeline
+   │   ├── OpenAnomalyDetectionModel.ipynb        # Main notebook / pipeline
    │   └── infer_periods.py              # Helper module used by notebook
    │
    ├── data/

@@ -76,17 +76,12 @@ Open-Multiparameter-Anomaly-Detection-Model/
 │   └── infer_periods.py              # Helper module used by notebook
 │
 ├── data/
-│   └── sample_data/                  # Example or test datasets
-│       └── example.csv
-│
-│
-├── docs/                             # Documentation files
-│   ├── INSTALL.md
-│   ├── README.md
-│   ├── CHANGELOG.md
-│   ├── CONTRIBUTING.md
-│   └── model-card.md
-│
+│   └── loc_LLS.csv
+├── INSTALL.md
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+│── model-card.md
 ├── requirements.txt                  # Python dependencies
 ├── LICENSE
 

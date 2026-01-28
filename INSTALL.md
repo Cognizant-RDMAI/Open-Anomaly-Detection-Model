@@ -21,9 +21,12 @@ cd Open-Multiparameter-Anomaly-Detection-Model
 
 This will download all project files, including notebooks, scripts, and example datasets.
  
-### 2. **Create a Python Environment (Recommended)**
+### 2. **Python Environment (Used by Jupyter)**
 
-This project is tested with Python 3.13.
+Jupyter Notebook runs code using a Python kernel, which is tied to a specific Python environment. To ensure reproducible results and correct library versions, this project is tested with:
+
+**Python 3.12**
+We recommend creating an isolated environment and launching Jupyter from it.
 
 ```bash
 Option A: Conda

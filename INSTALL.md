@@ -15,7 +15,10 @@ Clone the project to your local machine or cloud environment:
 
 ```bash
 git clone https://github.com/Cognizant-RDMAI/Open-Multiparameter-Anomaly-Detection-Model.git
-cd Open-Multiparameter-Anomaly-Detection-Model```
+cd Open-Multiparameter-Anomaly-Detection-Model
+```
+
+
 This will download all project files, including notebooks, scripts, and example datasets.
  
 ### 2. **Create a Python Environment (Recommended)**

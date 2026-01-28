@@ -96,17 +96,24 @@ The `load_and_prepare_data` function ingests and cleans Section 82 water quality
    - Approximate runtime: **1 minutes** on an M1 Mac.
 
 ### Directory Structure
-      OpenRealAnomalynModel/
-      ├── README.md 
-      ├── MODEL_CARD.md
-      ├── INSTALL.md
-      ├── CONTRIBUTING.md
-      ├── CHANGELOG.md
-      ├── requirements.txt
-      ├── LICENSE
-      └── notebooks/
-          ├── OpenAnomalyModel.ipynb
-          └── infer_periods.ipynb
+   ```bash
+   Open-Multiparameter-Anomaly-Detection-Model/
+   │
+   ├── notebooks/
+   │   ├── OpenAnomalyModel.ipynb        # Main notebook / pipeline
+   │   └── infer_periods.py              # Helper module used by notebook
+   │
+   ├── data/
+   │   └── loc_LLS.csv
+   ├── INSTALL.md
+   ├── README.md
+   ├── CHANGELOG.md
+   ├── CONTRIBUTING.md
+   │── model-card.md
+   ├── requirements.txt                  # Python dependencies
+   ├── LICENSE
+   
+   ```
 
 
 

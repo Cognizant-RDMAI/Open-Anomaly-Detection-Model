@@ -25,20 +25,23 @@ This will download all project files, including notebooks, scripts, and example 
 
 This project is tested with Python 3.13.
 
+```bash
 Option A: Conda
 conda create -n openanomaly python=3.13
 conda activate openanomaly
-
+```
+```bash
 Option B: venv
 python3.13 -m venv venv
 source venv/bin/activate
-
+```
 
 For Windows:
-
+```bash
 venv\Scripts\activate
+```
 
-3. Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -46,32 +49,26 @@ pip install -r requirements.txt
 This installs all dependencies required for:
 
 time-series decomposition
-
 anomaly detection
-
 clustering
-
 visualization
-
 Jupyter Notebook execution
-
 Dataset Structure and Input Format
 
 Input data can be provided either:
-
-via an API callable returning JSON, or
-
-as CSV files stored locally
+- via an API callable returning JSON, or
+- as CSV files stored locally
 
 Expected directory structure:
 
+```bash
 datasets/
 └── multiParameter/
     └── <your_dataset_name>/
         ├── input/
         │   └── example.csv
         └── output/
-
+```
 
 An example CSV file is included in the repository to illustrate the required format.
 
@@ -81,20 +78,18 @@ All datetime values must follow this format:
 
 YYYY-MM-DD HH:MM
 
-Running the Model
+### Running the Model
 
 The full anomaly detection pipeline is executed using the provided Jupyter Notebook.
 
 Launch Jupyter:
 
+```bash
 jupyter notebook
+```
+
+- Open the main notebook in the repository
+- Confirm the dataset path points to the appropriate datasets/ directory
+- Run all notebook cells sequentially
 
 
-Open the main notebook in the repository
-
-Confirm the dataset path points to the appropriate datasets/ directory
-
-Run all notebook cells sequentially
-
-Note:
-Earlier documentation referenced a multiparameter.py script; the current implementation runs entirely through the Jupyter Notebook.

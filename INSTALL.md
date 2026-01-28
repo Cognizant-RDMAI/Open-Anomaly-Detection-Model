@@ -25,7 +25,8 @@ This will download all project files, including notebooks, scripts, and example 
 
 Jupyter Notebook runs code using a Python kernel, which is tied to a specific Python environment. To ensure reproducible results and correct library versions, this project is tested with:
 
-**Python 3.12**
+**Python 3.13**
+
 We recommend creating an isolated environment and launching Jupyter from it.
 
 ```bash
@@ -43,6 +44,11 @@ For Windows:
 ```bash
 venv\Scripts\activate
 ```
+> **Note:**
+> If you are using a managed environment (Google Colab, Azure ML, SageMaker), make sure the runtime uses Python 3.12 and install dependencies from requirements.txt. The notebook will then use that Python environment as its kernel.
+
+
+
 
 ### 3. Install Dependencies
 ```bash

@@ -127,7 +127,7 @@ All datetime values must follow this format:
 YYYY-MM-DD HH:MM
 ```
 
-### 5.Helper Modules
+### 5.Helper Module
 
 The repository includes a helper module, `infer_periods.py`, which is used internally by the main notebook and scripts to extract seasonal periods.
 

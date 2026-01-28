@@ -25,7 +25,7 @@ This will download all project files, including notebooks, scripts, and example 
 
 Jupyter Notebook runs code using a Python kernel, which is tied to a specific Python environment. To ensure reproducible results and correct library versions, this project is tested with:
 
-**Python 3.13**
+**Python 3.12**
 
 We recommend creating an isolated environment and launching Jupyter from it.
 
@@ -33,11 +33,17 @@ We recommend creating an isolated environment and launching Jupyter from it.
 Option A: Conda
 conda create -n openanomaly python=3.13
 conda activate openanomaly
+pip install -r requirements.txt
+jupyter notebook
+
 ```
 ```bash
-Option B: venv
 python3.13 -m venv venv
-source venv/bin/activate
+source venv/bin/activate    # macOS/Linux
+venv\Scripts\activate       # Windows
+pip install -r requirements.txt
+jupyter notebook
+
 ```
 
 For Windows:

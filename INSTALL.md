@@ -1,46 +1,97 @@
-Installation Guide
-This guide walks you through setting up the **OpenRealTimeClassificationModel** project in your local or cloud environment.
- 
+# Installation Guide
+
+This guide walks you through setting up the **OpenAnomalyModel** project in a local or cloud environment.
+
 > **Note:** This repository is shared for transparency and reproducibility.  
 > Code contributions are not accepted at this time.
- 
---- 
-## Installation Instructions
-### 1. Clone the repository
- 
-First, clone this project to your local machine or cloud environment
-```https://github.com/Cognizant-RDMAI/BB3AB-Real-Time-Multiparameter-Anomaly-Identification-and-Detection```
-This will download all project files including the model scripts
- 
-### 2. Create a Python Virtual Environment (Optional but Recommended)
- 
-Using a virtual environment avoids conflicts with other Python packages on your system
-```
-python3 -m venv venv
-source venv/bin/activate    #macOS/Linux
-venv/Scripts/Activate       #Windows
-```
-This creates an isolated environment where all dependencies will be installed.
 
-### 3. Install Dependencies
+---
+
+## Installation Instructions
+
+### 1. Clone the Repository
+
+Clone the project to your local machine or cloud environment:
+
+```bash
+git clone https://github.com/Cognizant-RDMAI/Open-Multiparameter-Anomaly-Detection-Model.git
+cd Open-Multiparameter-Anomaly-Detection-Model```
+This will download all project files, including notebooks, scripts, and example datasets.
  
-All required Python packages are listed in the ```requirements.txt``` file. To install them:
-```
+### 2. **Create a Python Environment (Recommended)**
+
+This project is tested with Python 3.13.
+
+Option A: Conda
+conda create -n openanomaly python=3.13
+conda activate openanomaly
+
+Option B: venv
+python3.13 -m venv venv
+source venv/bin/activate
+
+
+For Windows:
+
+venv\Scripts\activate
+
+3. Install Dependencies
+```bash
 pip install -r requirements.txt
 ```
-This includes:
-- matplotlib
-- pandas
-- NumPy: Array and math operations
-- Animate
 
-### 3. Ingest Real Time Data and Run E2E pipeline
-Input data should be either API callable via JSON or in the form of CSV:
-```
+This installs all dependencies required for:
+
+time-series decomposition
+
+anomaly detection
+
+clustering
+
+visualization
+
+Jupyter Notebook execution
+
+Dataset Structure and Input Format
+
+Input data can be provided either:
+
+via an API callable returning JSON, or
+
+as CSV files stored locally
+
+Expected directory structure:
+
 datasets/
 └── multiParameter/
-    └── <your_folder>/
-        ├── inpput
-        └── ...
-```
-Use the ```multiparameter.py``` to run the full pipeline
+    └── <your_dataset_name>/
+        ├── input/
+        │   └── example.csv
+        └── output/
+
+
+An example CSV file is included in the repository to illustrate the required format.
+
+Timestamp Format
+
+All datetime values must follow this format:
+
+YYYY-MM-DD HH:MM
+
+Running the Model
+
+The full anomaly detection pipeline is executed using the provided Jupyter Notebook.
+
+Launch Jupyter:
+
+jupyter notebook
+
+
+Open the main notebook in the repository
+
+Confirm the dataset path points to the appropriate datasets/ directory
+
+Run all notebook cells sequentially
+
+Note:
+Earlier documentation referenced a multiparameter.py script; the current implementation runs entirely through the Jupyter Notebook.

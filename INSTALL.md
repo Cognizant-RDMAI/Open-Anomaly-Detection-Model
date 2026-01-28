@@ -69,18 +69,33 @@ This installs all dependencies required for:
 Expected directory structure:
 
 ```bash
-datasets/
-└── multiParameter/
-    └── <your_dataset_name>/
-        ├── input/
-        │   └── example.csv
-        └── output/
+Open-Multiparameter-Anomaly-Detection-Model/
+│
+├── notebooks/
+│   ├── OpenAnomalyModel.ipynb        # Main notebook / pipeline
+│   └── infer_periods.py              # Helper module used by notebook
+│
+├── data/
+│   └── sample_data/                  # Example or test datasets
+│       └── example.csv
+│
+│
+├── docs/                             # Documentation files
+│   ├── INSTALL.md
+│   ├── README.md
+│   ├── CHANGELOG.md
+│   ├── CONTRIBUTING.md
+│   └── model-card.md
+│
+├── requirements.txt                  # Python dependencies
+├── LICENSE
+
 ```
 
 An example CSV file is included in the repository to illustrate the required format.
 
 
-### 3. Input data can be provided:
+### 3. Input data must be ingested as follows:
 The script is ingest, clean, and align Section 82 water quality data for analysis.
 It ensures that all expected variables are present and ready for downstream processing.
 

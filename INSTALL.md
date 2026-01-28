@@ -127,7 +127,21 @@ All datetime values must follow this format:
 YYYY-MM-DD HH:MM
 ```
 
-### 5. Running the Model
+### 5.Helper Modules
+
+The repository includes a helper module, `infer_periods.py`, which is used internally by the main notebook and scripts to extract seasonal periods.
+
+> **Note:** This file is already included in the repository and does **not** require separate installation. Ensure it remains in the same directory as the notebook when executing the pipeline.
+
+Example usage inside the notebook:
+
+```python
+import infer_periods
+from infer_periods import extractPeriods
+
+```
+
+### 6. Running the Model
 
 The full anomaly detection pipeline is executed using the provided Jupyter Notebook.
 

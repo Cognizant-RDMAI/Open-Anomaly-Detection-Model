@@ -29,14 +29,17 @@ Jupyter Notebook runs code using a Python kernel, which is tied to a specific Py
 
 We recommend creating an isolated environment and launching Jupyter from it.
 
+#### Option A: Conda
+
 ```bash
-Option A: Conda
 conda create -n openanomaly python=3.13
 conda activate openanomaly
 pip install -r requirements.txt
 jupyter notebook
 
 ```
+
+#### Option B: venv
 ```bash
 python3.13 -m venv venv
 source venv/bin/activate    # macOS/Linux
@@ -53,14 +56,6 @@ venv\Scripts\activate
 > **Note:**
 > If you are using a managed environment (Google Colab, Azure ML, SageMaker), make sure the runtime uses Python 3.12 and install dependencies from requirements.txt. The notebook will then use that Python environment as its kernel.
 
-
-
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
 This installs all dependencies required for:
 
 - Time-series decomposition
@@ -70,8 +65,6 @@ This installs all dependencies required for:
 - Jupyter Notebook execution
 - Dataset Structure and Input Format
 
-Input data can be provided:
-- as CSV files stored locally
 
 Expected directory structure:
 
@@ -86,13 +79,20 @@ datasets/
 
 An example CSV file is included in the repository to illustrate the required format.
 
-Timestamp Format
+
+### 3. Input data can be provided:
+- as CSV files stored locally
+
+
+### 4. Timestamp Format
 
 All datetime values must follow this format:
 
+```bash
 YYYY-MM-DD HH:MM
+```
 
-### Running the Model
+### 5. Running the Model
 
 The full anomaly detection pipeline is executed using the provided Jupyter Notebook.
 

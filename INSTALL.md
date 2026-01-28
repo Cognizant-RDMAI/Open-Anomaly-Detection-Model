@@ -81,7 +81,42 @@ An example CSV file is included in the repository to illustrate the required for
 
 
 ### 3. Input data can be provided:
-- as CSV files stored locally
+The script is ingest, clean, and align Section 82 water quality data for analysis.
+It ensures that all expected variables are present and ready for downstream processing.
+
+Key Features:
+- Automatically checks for missing or extra variables
+- Aligns timestamps across variables
+- Handles both single-file and multi-file inputs
+- Prepares a clean DataFrame suitable for MSTL decomposition, clustering, or other analysis
+
+Supported Inputs:
+#### Multiple CSVs
+- Provide a dictionary mapping variable names to CSV file paths. Example:
+
+```bash
+csv_dict = {
+    'do': 'datasets/do.csv',
+    'ph': 'datasets/ph.csv',
+    'turb': 'datasets/turb.csv',
+    'amm': 'datasets/amm.csv',
+    'cond': 'datasets/cond.csv',
+    'temp': 'datasets/temp.csv'
+}
+df = load_and_prepare_data(csv_dict)
+```
+
+#### Single CSV
+Provide a single CSV containing all expected variables in columns:
+```bash
+df = load_and_prepare_data('datasets/multi_parameter.csv')
+```
+**Expected Variables**
+
+```bash
+['do', 'ph', 'turb', 'amm', 'cond', 'temp']
+
+```
 
 
 ### 4. Timestamp Format

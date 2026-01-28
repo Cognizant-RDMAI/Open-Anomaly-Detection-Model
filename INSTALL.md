@@ -1,6 +1,6 @@
 # Installation Guide
 
-This guide walks you through setting up the **OpenAnomalyModel** project in a local or cloud environment.
+This guide walks you through setting up the **Open-Anomaly-Detection-Model** project in a local or cloud environment.
 
 > **Note:** This repository is shared for transparency and reproducibility.  
 > Code contributions are not accepted at this time.
@@ -69,7 +69,7 @@ This installs all dependencies required for:
 Expected directory structure:
 
 ```bash
-Open-Multiparameter-Anomaly-Detection-Model/
+Open-Anomaly-Detection-Model/
 │
 ├── notebooks/
 │   ├── OpenAnomalyModel.ipynb        # Main notebook / pipeline

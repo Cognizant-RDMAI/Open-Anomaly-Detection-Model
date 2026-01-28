@@ -103,7 +103,7 @@ The `load_and_prepare_data` function ingests and cleans Section 82 water quality
    │   ├── OpenAnomalyDetectionModel.ipynb        # Main notebook / pipeline
    │   └── infer_periods.py              # Helper module used by notebook
    │
-   ├── data/
+   ├── data/sample_data
    │   └── loc_LLS.csv
    ├── INSTALL.md
    ├── README.md

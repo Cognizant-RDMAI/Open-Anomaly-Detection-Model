@@ -63,15 +63,14 @@ pip install -r requirements.txt
 
 This installs all dependencies required for:
 
-time-series decomposition
-anomaly detection
-clustering
-visualization
-Jupyter Notebook execution
-Dataset Structure and Input Format
+- Time-series decomposition
+- Anomaly detection
+- Clustering
+- Visualization
+- Jupyter Notebook execution
+- Dataset Structure and Input Format
 
-Input data can be provided either:
-- via an API callable returning JSON, or
+Input data can be provided:
 - as CSV files stored locally
 
 Expected directory structure:

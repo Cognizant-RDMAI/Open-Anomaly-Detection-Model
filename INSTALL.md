@@ -94,6 +94,30 @@ An example CSV file is included in the repository to illustrate the required for
 The script is ingest, clean, and align Section 82 water quality data for analysis.
 It ensures that all expected variables are present and ready for downstream processing.
 
+# Data Loading and Preparation Function
+
+This function, `load_and_prepare_data`, is designed to **ingest, clean, and align Section 82 water quality data** for analysis. First create a folder 'data', and ingest the csv. 
+
+#### Key Features:
+
+1. **Supported Inputs:**
+   - **Multiple CSVs**: Provide a dictionary mapping variable names to CSV file paths.
+   - **Single CSV**: A single file containing all expected variables.
+
+2. **Expected Variables:**
+   ```python
+   ['do','ph','turb','amm','cond','temp']```
+   
+---
+3. **Mandatory Date–Time Format (Critical for Ingestion)**
+```YYYY-MM-DD HH:MM
+Examples 
+ 2024-01-15 08:00
+ 2024-07-03 16:30
+```
+
+
+
 Key Features:
 - Automatically checks for missing or extra variables
 - Aligns timestamps across variables

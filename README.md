@@ -41,7 +41,7 @@ Regulatory requirements and high-frequency multivariate data make manual review 
 - Automated Event Classification
 
 ## Report
-Open Anomal Detection Model Report is available [here]([https://python-poetry.org/docs/#installation](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/blob/010f8d438d348315b3557014591a526eb33d0683/Open%20Anomaly%20Detection%20AI%20Model%20(Report).pdf))
+Open Anomal Detection Model Report is available [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/blob/f921aec52c1a9b40352a5f1603ea347ef52fe9fc/Open%20Anomaly%20Detection%20Model%20Report.pdf)
 
 
 ## Installation instructions including requirements

@@ -41,15 +41,15 @@ Regulatory requirements and high-frequency multivariate data make manual review 
 - Automated Event Classification
 
 ## Report
-Open Anomal Detection Model Report is available [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/blob/f921aec52c1a9b40352a5f1603ea347ef52fe9fc/Open%20Anomaly%20Detection%20Model%20Report.pdf)
+Open Anomal Detection Model Report is available [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/tree/main/Supporting_documents)
 
 ### Benchmark Download:
 
-River Deep Mountain AI models have been independently benchmarked by WRc and ADAS, against existing industry-standard tools. The benchmarking reports assess model performance, ‘ease-of-use’, time and cost requirements.Read the full report [here]().
+River Deep Mountain AI models have been independently benchmarked by WRc and ADAS, against existing industry-standard tools. The benchmarking reports assess model performance, ‘ease-of-use’, time and cost requirements.Read the full report [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/tree/main/Supporting_documents).
 
 ### Whitepaper Download:
 
-Please download the whitepaper [here]().
+Please download the whitepaper [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/tree/main/Supporting_documents).
 
 ## Installation instructions including requirements
 ### Project Setup Guide

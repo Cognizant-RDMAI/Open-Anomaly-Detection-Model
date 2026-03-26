@@ -41,7 +41,7 @@ Regulatory requirements and high-frequency multivariate data make manual review 
 - Automated Event Classification
 
 ## Report
-Open Anomal Detection Model Report is available [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/tree/main/Supporting_documents)
+Open Anomaly Detection Model Report is available [here](https://github.com/Cognizant-RDMAI/Open-Anomaly-Detection-Model/tree/main/Supporting_documents)
 
 ### Benchmark Download:
 
